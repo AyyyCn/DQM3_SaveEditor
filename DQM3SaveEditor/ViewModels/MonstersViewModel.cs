@@ -41,23 +41,43 @@ public class MonstersViewModel : ViewModelBase
 
     private void AddMonster()
     {
-        var monster = new MonsterViewModel
+        // Open monster selection dialog
+        var selectionDialog = new MonsterSelectionDialog();
+        if (selectionDialog.ShowDialog() == true && selectionDialog.SelectedMonster != null)
         {
-            Id = Monsters.Count + 1,
-            Name = "New Monster",
-            Kind = "Slime",
-            Level = 1,
-            Size = 1,
-            UnspentPoints = 0
-        };
-        Monsters.Add(monster);
-        SelectedMonster = monster;
+            var selectedInfo = selectionDialog.SelectedMonster;
+            // Create a new monster with the selected kind/name
+            var monster = new MonsterViewModel
+            {
+                Id = Monsters.Count > 0 ? Monsters.Max(m => m.Id) + 1 : 1,
+                Name = selectedInfo.Name,
+                Kind = selectedInfo.JapaneseName ?? selectedInfo.Name,
+                Level = 1,
+                Size = 1,
+                UnspentPoints = 0
+            };
+            // Open edit dialog for the new monster
+            var editDialog = new MonsterEditDialog { DataContext = monster };
+            if (editDialog.ShowDialog() == true)
+            {
+                Monsters.Add(monster);
+                SelectedMonster = monster;
+            }
+        }
     }
 
     private void EditSelected()
     {
-        // TODO: Show edit dialog
-        throw new NotImplementedException();
+        if (SelectedMonster == null) return;
+        // Clone the selected monster for editing
+        var clone = new MonsterViewModel();
+        clone.FromModel(SelectedMonster.ToModel());
+        var dialog = new MonsterEditDialog { DataContext = clone };
+        if (dialog.ShowDialog() == true)
+        {
+            // Copy edited values back
+            SelectedMonster.FromModel(clone.ToModel());
+        }
     }
 
     private void DeleteSelected()

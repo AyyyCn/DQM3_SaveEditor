@@ -17,10 +17,10 @@ public class SaveMeta
     public float SeasonTimer { get; set; }
     public float WeatherTimer { get; set; }
 
+    public PlayerMeta Player { get; set; } = new();
     public List<MonsterMeta> Monsters { get; } = new();
     public List<ItemMeta> Inventory { get; } = new();
 
-    public Dictionary<string, EditableRange> Ranges { get; } = new();
     public OffsetTracker OffsetTracker { get; } = new();
 
     /*─────────────────────────
@@ -49,6 +49,7 @@ public class SaveMeta
             Skills = m.Skills.Select(s => new SkillAllocation
             {
                 Id = s.Index,
+                Name = s.Name,
                 AllocatedPoints = s.Allocated
             }).ToList()
         });
@@ -67,20 +68,24 @@ public class SaveMeta
             tgt.Exp = src.Exp;
             tgt.UnspentPoints = src.UnspentPoints;
 
-            tgt.Stats = tgt.Stats with   // record-style convenience
-            {
-                HP = src.BasicStats.HP,
-                MP = src.BasicStats.MP,
-                ATK = src.BasicStats.ATK,
-                DEF = src.BasicStats.DEF,
-                AGI = src.BasicStats.AGI,
-                WIS = src.BasicStats.WIS
-            };
+            tgt.Stats = new StatBlock(
+                src.BasicStats.HP,
+                src.BasicStats.MP,
+                src.BasicStats.ATK,
+                src.BasicStats.DEF,
+                src.BasicStats.AGI,
+                src.BasicStats.WIS,
+                tgt.Stats.Ranges // preserve the original ranges!
+            );
 
             foreach (var sk in src.Skills)
             {
                 var t = tgt.Skills.FirstOrDefault(s => s.Index == sk.Id);
-                if (t != null) t.Allocated = sk.AllocatedPoints;
+                if (t != null)
+                {
+                    t.Allocated = sk.AllocatedPoints;
+                    t.Name = sk.Name;
+                }
             }
         }
     }
@@ -96,11 +101,31 @@ public class SaveMeta
             if (tgt != null) tgt.Count = src.Count;
         }
     }
+
+    public PlayerState ExportPlayer() => new PlayerState
+    {
+        Name = Player.Name,
+        PlayTimeSec = Player.PlayTimeSec,
+        GoldInPossession = Player.GoldInPossession,
+        GoldInBank = Player.GoldInBank,
+        TotalEarnedGold = Player.TotalEarnedGold,
+        CafePoint = Player.CafePoint
+    };
+
+    public void ImportPlayer(PlayerState edited)
+    {
+        Player.Name = edited.Name;
+        Player.PlayTimeSec = edited.PlayTimeSec;
+        Player.GoldInPossession = edited.GoldInPossession;
+        Player.GoldInBank = edited.GoldInBank;
+        Player.TotalEarnedGold = edited.TotalEarnedGold;
+        Player.CafePoint = edited.CafePoint;
+    }
 }
 
 /*──────── internal raw blocks ────────*/
 
-public record StatBlock(            // immutable “struct” + ranges
+public record StatBlock(            // immutable "struct" + ranges
     int HP, int MP, int ATK,
     int DEF, int AGI, int WIS,
     EditableRange[] Ranges);
@@ -131,8 +156,10 @@ public class MonsterMeta
 public class SkillMeta
 {
     public int Index;
+    public string Name = string.Empty;
     public int Allocated;
     public EditableRange Range;
+    public EditableRange NameRange;
 }
 
 public class ItemMeta
@@ -140,4 +167,14 @@ public class ItemMeta
     public string Code = "";
     public long Count;
     public EditableRange Range;
+}
+
+public class PlayerMeta
+{
+    public string Name = string.Empty;
+    public double PlayTimeSec;
+    public int GoldInPossession;
+    public int GoldInBank;
+    public int TotalEarnedGold;
+    public int CafePoint;
 }

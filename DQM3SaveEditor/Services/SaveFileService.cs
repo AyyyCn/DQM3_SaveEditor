@@ -27,6 +27,10 @@ public sealed class SaveFileService : ISaveFileService
                        EnvironmentState Environment)>
         LoadAsync(string path)
     {
+        // ---- Backup ----
+        var backupPath = path + ".bak";
+        File.Copy(path, backupPath, true);
+
         var (blob, meta) = await DecryptAndParseAsync(path);
         
         // Store the current blob and meta for saving
@@ -77,6 +81,19 @@ public sealed class SaveFileService : ISaveFileService
         // 4. Re-chiffrer + ré-écrire
         await EncryptAndWriteAsync(path, patchedBlob);
         Console.WriteLine("=== SaveFileService.SaveAsync COMPLETED ===");
+    }
+
+    public PlayerState GetPlayerState()
+    {
+        if (_currentMeta == null)
+            return new PlayerState();
+        return _currentMeta.ExportPlayer();
+    }
+
+    public void SetPlayerState(PlayerState player)
+    {
+        if (_currentMeta != null)
+            _currentMeta.ImportPlayer(player);
     }
 
     #endregion -------------------------------------------------------------------------------

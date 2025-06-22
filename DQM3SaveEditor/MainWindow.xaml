@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DQM3SaveEditor"
         xmlns:converters="clr-namespace:DQM3SaveEditor.Converters"
+        xmlns:views="clr-namespace:DQM3SaveEditor.Views"
         mc:Ignorable="d"
-        Title="DQM3 Save Editor" Height="600" Width="800">
+        Title="DQM3 Save Editor" Height="700" Width="1000">
     <Window.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
@@ -15,7 +16,6 @@
             <converters:BoolToDirtyMarkConverter x:Key="DirtyMarkConverter"/>
         </ResourceDictionary>
     </Window.Resources>
-    
     <DockPanel>
         <Menu DockPanel.Dock="Top">
             <MenuItem Header="_File">
@@ -25,80 +25,81 @@
                 <MenuItem Header="E_xit" Click="ExitMenuItem_Click"/>
             </MenuItem>
         </Menu>
-
         <StatusBar DockPanel.Dock="Bottom">
             <TextBlock Text="{Binding IsDirty, Converter={StaticResource DirtyMarkConverter}}"/>
         </StatusBar>
-
-        <TabControl SelectedIndex="{Binding SelectedTabIndex}">
-            <TabItem Header="Environment">
-                <Grid Margin="10">
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="Auto"/>
-                        <RowDefinition Height="Auto"/>
-                        <RowDefinition Height="Auto"/>
-                    </Grid.RowDefinitions>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="Auto"/>
-                        <ColumnDefinition Width="*"/>
-                    </Grid.ColumnDefinitions>
-
-                    <Label Grid.Row="0" Grid.Column="0" Content="Season:"/>
-                    <ComboBox Grid.Row="0" Grid.Column="1" Margin="5"
-                              ItemsSource="{StaticResource Seasons}"
-                              SelectedItem="{Binding Environment.Season}"/>
-
-                    <Label Grid.Row="1" Grid.Column="0" Content="Weather:"/>
-                    <ComboBox Grid.Row="1" Grid.Column="1" Margin="5"
-                              ItemsSource="{StaticResource Weathers}"
-                              SelectedItem="{Binding Environment.Weather}"/>
-
-                    <StackPanel Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" 
-                              Orientation="Horizontal" Margin="0,10,0,0">
-                        <Label Content="Time:"/>
-                        <TextBox Width="30" Text="{Binding Environment.Hour, UpdateSourceTrigger=PropertyChanged}"/>
-                        <Label Content=":"/>
-                        <TextBox Width="30" Text="{Binding Environment.Minute, UpdateSourceTrigger=PropertyChanged}"/>
-                        <Button Content="Reset Timers" Margin="10,0,0,0"
-                                Command="{Binding Environment.ResetTimersCommand}"/>
+        <TabControl SelectedIndex="{Binding SelectedTabIndex}" Margin="8">
+            <TabItem Header="Player">
+                <GroupBox Header="Player" Margin="10" Padding="10">
+                    <StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="Name:" Width="120" VerticalAlignment="Center"/>
+                            <TextBox Text="{Binding Player.Name, UpdateSourceTrigger=PropertyChanged}" Width="200"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="Play Time (sec):" Width="120" VerticalAlignment="Center"/>
+                            <TextBox Text="{Binding Player.PlayTimeSec, UpdateSourceTrigger=PropertyChanged}" Width="200"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="Gold In Possession:" Width="120" VerticalAlignment="Center"/>
+                            <TextBox Text="{Binding Player.GoldInPossession, UpdateSourceTrigger=PropertyChanged}" Width="200"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="Gold In Bank:" Width="120" VerticalAlignment="Center"/>
+                            <TextBox Text="{Binding Player.GoldInBank, UpdateSourceTrigger=PropertyChanged}" Width="200"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="Total Earned Gold:" Width="120" VerticalAlignment="Center"/>
+                            <TextBox Text="{Binding Player.TotalEarnedGold, UpdateSourceTrigger=PropertyChanged}" Width="200"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Text="Cafe Point:" Width="120" VerticalAlignment="Center"/>
+                            <TextBox Text="{Binding Player.CafePoint, UpdateSourceTrigger=PropertyChanged}" Width="200"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="0,10,0,0">
+                            <Button Content="Unlock All Library" Width="200" Command="{Binding UnlockAllLibraryCommand}"/>
+                        </StackPanel>
                     </StackPanel>
-                </Grid>
+                </GroupBox>
             </TabItem>
-
             <TabItem Header="Monsters">
                 <DockPanel>
-                    <ToolBar DockPanel.Dock="Top">
+                    <ToolBar DockPanel.Dock="Top" Margin="0,0,0,8">
                         <Button Content="Add" Command="{Binding Monsters.AddMonsterCommand}"/>
                         <Button Content="Edit" Command="{Binding Monsters.EditSelectedCommand}"/>
                         <Button Content="Delete" Command="{Binding Monsters.DeleteSelectedCommand}"/>
-                        <Separator/>
-                        <Button Content="Change Monster" Command="{Binding Monsters.ChangeMonsterCommand}"/>
                     </ToolBar>
-                    <DataGrid ItemsSource="{Binding Monsters.Monsters}"
-                             SelectedItem="{Binding Monsters.SelectedMonster}"
-                             AutoGenerateColumns="False">
-                        <DataGrid.Columns>
-                            <DataGridTextColumn Header="ID" Binding="{Binding Id}" IsReadOnly="True"/>
-                            <DataGridTextColumn Header="Name" Binding="{Binding Name}"/>
-                            <DataGridTextColumn Header="Kind (English)" Binding="{Binding EnglishKind}" IsReadOnly="True"/>
-                            <DataGridTextColumn Header="Level" Binding="{Binding Level}"/>
-                            <DataGridTextColumn Header="Size" Binding="{Binding Size}"/>
-                            <DataGridTextColumn Header="Exp" Binding="{Binding Exp}"/>
-                            <DataGridTextColumn Header="HP" Binding="{Binding HP}"/>
-                            <DataGridTextColumn Header="MP" Binding="{Binding MP}"/>
-                            <DataGridTextColumn Header="ATK" Binding="{Binding ATK}"/>
-                            <DataGridTextColumn Header="DEF" Binding="{Binding DEF}"/>
-                            <DataGridTextColumn Header="AGI" Binding="{Binding AGI}"/>
-                            <DataGridTextColumn Header="WIS" Binding="{Binding WIS}"/>
-                            <DataGridTextColumn Header="Unspent Points" Binding="{Binding UnspentPoints}"/>
-                        </DataGrid.Columns>
-                    </DataGrid>
+                    <ScrollViewer VerticalScrollBarVisibility="Auto">
+                        <ListBox ItemsSource="{Binding Monsters.Monsters}"
+                                SelectedItem="{Binding Monsters.SelectedMonster, Mode=TwoWay}"
+                                BorderThickness="0"
+                                Background="Transparent"
+                                ScrollViewer.HorizontalScrollBarVisibility="Disabled"
+                                ScrollViewer.VerticalScrollBarVisibility="Auto">
+                            <ListBox.ItemsPanel>
+                                <ItemsPanelTemplate>
+                                    <UniformGrid Columns="2"/>
+                                </ItemsPanelTemplate>
+                            </ListBox.ItemsPanel>
+                            <ListBox.ItemTemplate>
+                                <DataTemplate>
+                                    <views:MonsterCard Monster="{Binding}"/>
+                                </DataTemplate>
+                            </ListBox.ItemTemplate>
+                            <ListBox.ItemContainerStyle>
+                                <Style TargetType="ListBoxItem">
+                                    <Setter Property="Margin" Value="0,0,8,8"/>
+                                    <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+                                    <Setter Property="VerticalContentAlignment" Value="Stretch"/>
+                                </Style>
+                            </ListBox.ItemContainerStyle>
+                        </ListBox>
+                    </ScrollViewer>
                 </DockPanel>
             </TabItem>
-
             <TabItem Header="Inventory">
                 <DockPanel>
-                    <ToolBar DockPanel.Dock="Top">
+                    <ToolBar DockPanel.Dock="Top" Margin="0,0,0,8">
                         <Button Content="Add Item" Command="{Binding Inventory.AddItemCommand}"/>
                         <Button Content="Remove Selected" Command="{Binding Inventory.RemoveSelectedCommand}"/>
                     </ToolBar>
@@ -112,18 +113,25 @@
                     </DataGrid>
                 </DockPanel>
             </TabItem>
-
-            <TabItem Header="Library">
-                <StackPanel Margin="10">
-                    <Button Content="Unlock All Books" Margin="0,0,0,10"
-                            Command="{Binding Library.UnlockAllBooksCommand}"/>
-                    <Button Content="Unlock All Monsters"
-                            Command="{Binding Library.UnlockAllMonstersCommand}"/>
-                </StackPanel>
-            </TabItem>
-
-            <TabItem Header="Equipment">
-                <TextBlock Text="Coming soon..." HorizontalAlignment="Center" VerticalAlignment="Center"/>
+            <TabItem Header="Environment">
+                <Grid Margin="10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Grid.Row="0" Grid.Column="0" Text="Season:" VerticalAlignment="Center"/>
+                    <ComboBox Grid.Row="0" Grid.Column="1" Margin="5"
+                              ItemsSource="{StaticResource Seasons}"
+                              SelectedItem="{Binding Environment.Season}"/>
+                    <TextBlock Grid.Row="1" Grid.Column="0" Text="Weather:" VerticalAlignment="Center"/>
+                    <ComboBox Grid.Row="1" Grid.Column="1" Margin="5"
+                              ItemsSource="{StaticResource Weathers}"
+                              SelectedItem="{Binding Environment.Weather}"/>
+                </Grid>
             </TabItem>
         </TabControl>
     </DockPanel>
