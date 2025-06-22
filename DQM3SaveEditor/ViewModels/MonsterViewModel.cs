@@ -11,6 +11,7 @@ public class MonsterViewModel : ViewModelBase
     private string _kind = string.Empty;
     private int _level;
     private int _size;
+    private long _exp;
     private int _unspentPoints;
     private BasicStats _basicStats = new();
     private ObservableCollection<SkillAllocation> _skills = new();
@@ -45,10 +46,47 @@ public class MonsterViewModel : ViewModelBase
         set => SetField(ref _size, value);
     }
 
+    public long Exp
+    {
+        get => _exp;
+        set => SetField(ref _exp, value);
+    }
+
     public int UnspentPoints
     {
         get => _unspentPoints;
         set => SetField(ref _unspentPoints, value);
+    }
+
+    public int HP
+    {
+        get => _basicStats.HP;
+        set { if (_basicStats.HP != value) { _basicStats.HP = value; OnPropertyChanged(); } }
+    }
+    public int MP
+    {
+        get => _basicStats.MP;
+        set { if (_basicStats.MP != value) { _basicStats.MP = value; OnPropertyChanged(); } }
+    }
+    public int ATK
+    {
+        get => _basicStats.ATK;
+        set { if (_basicStats.ATK != value) { _basicStats.ATK = value; OnPropertyChanged(); } }
+    }
+    public int DEF
+    {
+        get => _basicStats.DEF;
+        set { if (_basicStats.DEF != value) { _basicStats.DEF = value; OnPropertyChanged(); } }
+    }
+    public int AGI
+    {
+        get => _basicStats.AGI;
+        set { if (_basicStats.AGI != value) { _basicStats.AGI = value; OnPropertyChanged(); } }
+    }
+    public int WIS
+    {
+        get => _basicStats.WIS;
+        set { if (_basicStats.WIS != value) { _basicStats.WIS = value; OnPropertyChanged(); } }
     }
 
     public BasicStats BasicStats
@@ -70,8 +108,17 @@ public class MonsterViewModel : ViewModelBase
         Kind = Kind,
         Level = Level,
         Size = Size,
+        Exp = Exp,
         UnspentPoints = UnspentPoints,
-        BasicStats = BasicStats,
+        BasicStats = new()
+        {
+            HP = HP,
+            MP = MP,
+            ATK = ATK,
+            DEF = DEF,
+            AGI = AGI,
+            WIS = WIS
+        },
         Skills = new List<SkillAllocation>(Skills)
     };
 
@@ -82,8 +129,17 @@ public class MonsterViewModel : ViewModelBase
         Kind = model.Kind;
         Level = model.Level;
         Size = model.Size;
+        Exp = model.Exp;
         UnspentPoints = model.UnspentPoints;
-        BasicStats = model.BasicStats;
+        
+        _basicStats = model.BasicStats;
+        OnPropertyChanged(nameof(HP));
+        OnPropertyChanged(nameof(MP));
+        OnPropertyChanged(nameof(ATK));
+        OnPropertyChanged(nameof(DEF));
+        OnPropertyChanged(nameof(AGI));
+        OnPropertyChanged(nameof(WIS));
+
         Skills = new ObservableCollection<SkillAllocation>(model.Skills);
     }
 } 

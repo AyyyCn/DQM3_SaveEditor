@@ -81,6 +81,13 @@
                             <DataGridTextColumn Header="Kind" Binding="{Binding Kind}"/>
                             <DataGridTextColumn Header="Level" Binding="{Binding Level}"/>
                             <DataGridTextColumn Header="Size" Binding="{Binding Size}"/>
+                            <DataGridTextColumn Header="Exp" Binding="{Binding Exp}"/>
+                            <DataGridTextColumn Header="HP" Binding="{Binding HP}"/>
+                            <DataGridTextColumn Header="MP" Binding="{Binding MP}"/>
+                            <DataGridTextColumn Header="ATK" Binding="{Binding ATK}"/>
+                            <DataGridTextColumn Header="DEF" Binding="{Binding DEF}"/>
+                            <DataGridTextColumn Header="AGI" Binding="{Binding AGI}"/>
+                            <DataGridTextColumn Header="WIS" Binding="{Binding WIS}"/>
                             <DataGridTextColumn Header="Unspent Points" Binding="{Binding UnspentPoints}"/>
                         </DataGrid.Columns>
                     </DataGrid>

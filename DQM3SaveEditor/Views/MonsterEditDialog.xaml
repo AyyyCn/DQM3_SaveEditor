@@ -15,6 +15,11 @@
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
@@ -38,8 +43,26 @@
         <Label Grid.Row="4" Grid.Column="0" Content="Unspent Points:"/>
         <TextBox Grid.Row="4" Grid.Column="1" Text="{Binding UnspentPoints, UpdateSourceTrigger=PropertyChanged}"/>
 
-        <Label Grid.Row="5" Grid.Column="0" Content="Skills:"/>
-        <DataGrid Grid.Row="5" Grid.Column="1" Grid.RowSpan="2"
+        <Label Grid.Row="5" Grid.Column="0" Content="HP:"/>
+        <TextBox Grid.Row="5" Grid.Column="1" Text="{Binding HP, UpdateSourceTrigger=PropertyChanged}"/>
+
+        <Label Grid.Row="6" Grid.Column="0" Content="MP:"/>
+        <TextBox Grid.Row="6" Grid.Column="1" Text="{Binding MP, UpdateSourceTrigger=PropertyChanged}"/>
+
+        <Label Grid.Row="7" Grid.Column="0" Content="ATK:"/>
+        <TextBox Grid.Row="7" Grid.Column="1" Text="{Binding ATK, UpdateSourceTrigger=PropertyChanged}"/>
+
+        <Label Grid.Row="8" Grid.Column="0" Content="DEF:"/>
+        <TextBox Grid.Row="8" Grid.Column="1" Text="{Binding DEF, UpdateSourceTrigger=PropertyChanged}"/>
+
+        <Label Grid.Row="9" Grid.Column="0" Content="AGI:"/>
+        <TextBox Grid.Row="9" Grid.Column="1" Text="{Binding AGI, UpdateSourceTrigger=PropertyChanged}"/>
+
+        <Label Grid.Row="10" Grid.Column="0" Content="WIS:"/>
+        <TextBox Grid.Row="10" Grid.Column="1" Text="{Binding WIS, UpdateSourceTrigger=PropertyChanged}"/>
+
+        <Label Grid.Row="11" Grid.Column="0" Content="Skills:"/>
+        <DataGrid Grid.Row="11" Grid.Column="1" Grid.RowSpan="2"
                   ItemsSource="{Binding Skills}"
                   AutoGenerateColumns="False">
             <DataGrid.Columns>
@@ -49,7 +72,7 @@
             </DataGrid.Columns>
         </DataGrid>
 
-        <StackPanel Grid.Row="7" Grid.Column="0" Grid.ColumnSpan="2" 
+        <StackPanel Grid.Row="13" Grid.Column="0" Grid.ColumnSpan="2" 
                     Orientation="Horizontal" HorizontalAlignment="Right">
             <Button Content="OK" Width="75" Margin="0,0,10,0" Click="OkButton_Click"/>
             <Button Content="Cancel" Width="75" Click="CancelButton_Click"/>

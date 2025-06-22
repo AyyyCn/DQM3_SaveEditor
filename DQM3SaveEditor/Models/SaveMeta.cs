@@ -1,13 +1,14 @@
+﻿// Models/SaveMeta.cs
 using System.Collections.Generic;
-using System.Collections.ObjectModel;
 using System.Linq;
-using DQM3SaveEditor.Models;
+using System.Globalization;
 using DQM3SaveEditor.Services;
 
 namespace DQM3SaveEditor.Models;
 
 /// <summary>
-/// In-memory editable representation of the save file.
+/// In-memory bridge between raw blob and UI.
+/// All EditableRange & OffsetTracker wiring happens here.
 /// </summary>
 public class SaveMeta
 {
@@ -15,94 +16,128 @@ public class SaveMeta
     public string Weather { get; set; } = "";
     public float SeasonTimer { get; set; }
     public float WeatherTimer { get; set; }
-    public ObservableCollection<MonsterMeta> Monsters { get; set; } = new();
-    public List<ItemStack> Inventory { get; set; } = new();
 
-    // For patching: map of field keys to their EditableRange in the text blob
-    public Dictionary<string, EditableRange> Ranges { get; set; } = new();
+    public List<MonsterMeta> Monsters { get; } = new();
+    public List<ItemMeta> Inventory { get; } = new();
 
-    // For offset tracking
-    public OffsetTracker OffsetTracker { get; set; } = new();
+    public Dictionary<string, EditableRange> Ranges { get; } = new();
+    public OffsetTracker OffsetTracker { get; } = new();
 
-    // Dirty flag for UI
-    public bool IsDirty { get; set; }
-
-    /// <summary>
-    /// Export monsters to List<Monster> for ViewModels
-    /// </summary>
-    public List<Monster> ExportMonsters()
-    {
-        return Monsters.Select(m => new Monster
+    /*─────────────────────────
+     *  Converters ⇄ UI models
+     *────────────────────────*/
+    public IEnumerable<Monster> ExportMonsters() =>
+        Monsters.Select(m => new Monster
         {
             Id = m.Id,
             Name = m.Name,
             Kind = m.Kind,
             Level = m.Level,
             Size = m.Size,
+            Exp = m.Exp,
             UnspentPoints = m.UnspentPoints,
-            BasicStats = m.BasicStats,
+
+            BasicStats = new BasicStats
+            {
+                HP = m.Stats.HP,
+                MP = m.Stats.MP,
+                ATK = m.Stats.ATK,
+                DEF = m.Stats.DEF,
+                AGI = m.Stats.AGI,
+                WIS = m.Stats.WIS
+            },
             Skills = m.Skills.Select(s => new SkillAllocation
             {
-                Id = s.Id,
-                Name = s.Name,
-                AllocatedPoints = s.AllocatedPoints
+                Id = s.Index,
+                AllocatedPoints = s.Allocated
             }).ToList()
-        }).ToList();
+        });
+
+    public void ImportMonsters(IEnumerable<Monster> edited)
+    {
+        foreach (var src in edited)
+        {
+            var tgt = Monsters.FirstOrDefault(x => x.Id == src.Id);
+            if (tgt == null) continue;
+
+            tgt.Name = src.Name;
+            tgt.Kind = src.Kind;
+            tgt.Level = src.Level;
+            tgt.Size = src.Size;
+            tgt.Exp = src.Exp;
+            tgt.UnspentPoints = src.UnspentPoints;
+
+            tgt.Stats = tgt.Stats with   // record-style convenience
+            {
+                HP = src.BasicStats.HP,
+                MP = src.BasicStats.MP,
+                ATK = src.BasicStats.ATK,
+                DEF = src.BasicStats.DEF,
+                AGI = src.BasicStats.AGI,
+                WIS = src.BasicStats.WIS
+            };
+
+            foreach (var sk in src.Skills)
+            {
+                var t = tgt.Skills.FirstOrDefault(s => s.Index == sk.Id);
+                if (t != null) t.Allocated = sk.AllocatedPoints;
+            }
+        }
     }
 
-    /// <summary>
-    /// Import monsters from List<Monster> while preserving IDs
-    /// </summary>
-    public void ImportMonsters(List<Monster> monsters)
+    public IEnumerable<ItemStack> ExportInventory() =>
+        Inventory.Select(i => new ItemStack { Code = i.Code, Count = i.Count });
+
+    public void ImportInventory(IEnumerable<ItemStack> edited)
     {
-        // Clear existing monsters
-        Monsters.Clear();
-        
-        // Add new monsters, preserving IDs where possible
-        foreach (var monster in monsters)
+        foreach (var src in edited)
         {
-            var monsterMeta = new MonsterMeta
-            {
-                Id = monster.Id,
-                Name = monster.Name,
-                Kind = monster.Kind,
-                Level = monster.Level,
-                Size = monster.Size,
-                UnspentPoints = monster.UnspentPoints,
-                BasicStats = monster.BasicStats,
-                Skills = monster.Skills.Select(s => new SkillAllocationMeta
-                {
-                    Id = s.Id,
-                    Name = s.Name,
-                    AllocatedPoints = s.AllocatedPoints
-                }).ToList()
-            };
-            Monsters.Add(monsterMeta);
+            var tgt = Inventory.FirstOrDefault(x => x.Code == src.Code);
+            if (tgt != null) tgt.Count = src.Count;
         }
     }
 }
 
-/// <summary>
-/// Editable monster fields for patching.
-/// </summary>
+/*──────── internal raw blocks ────────*/
+
+public record StatBlock(            // immutable “struct” + ranges
+    int HP, int MP, int ATK,
+    int DEF, int AGI, int WIS,
+    EditableRange[] Ranges);
+
 public class MonsterMeta
 {
-    public int Id { get; set; }
-    public string Name { get; set; } = "";
-    public string Kind { get; set; } = "";
-    public int Level { get; set; }
-    public int Size { get; set; }
-    public int UnspentPoints { get; set; }
-    public BasicStats BasicStats { get; set; } = new();
-    public List<SkillAllocationMeta> Skills { get; set; } = new();
-    // TODO: Add more fields as needed
-    public Dictionary<string, EditableRange> Ranges { get; set; } = new();
+    public int Id;
+    public string Name = "";
+    public string Kind = "";
+    public int Level;
+    public int Size;
+    public long Exp;
+
+    public int UnspentPoints;
+
+    public required StatBlock Stats;
+
+    public EditableRange NameRange;
+    public EditableRange KindRange;
+    public EditableRange LevelRange;
+    public EditableRange SizeRange;
+    public EditableRange ExpRange;
+    public EditableRange UnspentRange;
+
+    public List<SkillMeta> Skills = new();
 }
 
-public class SkillAllocationMeta
+public class SkillMeta
 {
-    public int Id { get; set; }
-    public string Name { get; set; } = "";
-    public int AllocatedPoints { get; set; }
-    public EditableRange Range { get; set; }
-} 
+    public int Index;
+    public int Allocated;
+    public EditableRange Range;
+}
+
+public class ItemMeta
+{
+    public string Code = "";
+    public long Count;
+    public EditableRange Range;
+}

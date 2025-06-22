@@ -12,6 +12,23 @@ public class OffsetTracker
     public void Add(string key, EditableRange range) => _ranges.Add((range, key));
 
     /// <summary>
+    /// Get a range by key.
+    /// </summary>
+    public bool TryGetRange(string key, out EditableRange range)
+    {
+        foreach (var (r, k) in _ranges)
+        {
+            if (k == key)
+            {
+                range = r;
+                return true;
+            }
+        }
+        range = default;
+        return false;
+    }
+
+    /// <summary>
     /// Call after a patch to update all subsequent ranges.
     /// </summary>
     public void UpdateOffsets(string patchedKey, int delta)

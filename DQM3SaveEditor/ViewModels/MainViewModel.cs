@@ -79,6 +79,11 @@ public class MainViewModel : ViewModelBase
 
     private async void SaveSave()
     {
+        Console.WriteLine("=== SAVE SAVE STARTED ===");
+        Console.WriteLine($"IsDirty: {IsDirty}");
+        Console.WriteLine($"Monsters count: {Monsters.Monsters.Count}");
+        Console.WriteLine($"Inventory count: {Inventory.Items.Count}");
+        
         var dialog = new SaveFileDialog
         {
             Filter = "Save Files|*.bin;*.sav|All Files|*.*"
@@ -88,6 +93,7 @@ public class MainViewModel : ViewModelBase
         {
             try
             {
+                Console.WriteLine($"Saving to: {dialog.FileName}");
                 await _saveFileService.SaveAsync(
                     dialog.FileName,
                     Monsters.ToModel(),
@@ -95,12 +101,18 @@ public class MainViewModel : ViewModelBase
                     Environment.ToModel()
                 );
                 IsDirty = false;
+                Console.WriteLine("=== SAVE COMPLETED SUCCESSFULLY ===");
             }
             catch (Exception ex)
             {
+                Console.WriteLine($"=== SAVE ERROR: {ex} ===");
                 // TODO: Show error dialog
                 System.Diagnostics.Debug.WriteLine($"Error saving save: {ex}");
             }
+        }
+        else
+        {
+            Console.WriteLine("Save dialog cancelled");
         }
     }
 } 

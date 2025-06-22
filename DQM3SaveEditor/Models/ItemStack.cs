@@ -1,7 +1,8 @@
+// Models/ItemStack.cs
 namespace DQM3SaveEditor.Models;
 
 public class ItemStack
 {
-    public string Code { get; set; } = string.Empty;
-    public int Count { get; set; }
-} 
+    public string Code { get; set; } = "";
+    public long Count { get; set; }
+}
