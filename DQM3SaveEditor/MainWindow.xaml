@@ -71,6 +71,8 @@
                         <Button Content="Add" Command="{Binding Monsters.AddMonsterCommand}"/>
                         <Button Content="Edit" Command="{Binding Monsters.EditSelectedCommand}"/>
                         <Button Content="Delete" Command="{Binding Monsters.DeleteSelectedCommand}"/>
+                        <Separator/>
+                        <Button Content="Change Monster" Command="{Binding Monsters.ChangeMonsterCommand}"/>
                     </ToolBar>
                     <DataGrid ItemsSource="{Binding Monsters.Monsters}"
                              SelectedItem="{Binding Monsters.SelectedMonster}"
@@ -78,7 +80,7 @@
                         <DataGrid.Columns>
                             <DataGridTextColumn Header="ID" Binding="{Binding Id}" IsReadOnly="True"/>
                             <DataGridTextColumn Header="Name" Binding="{Binding Name}"/>
-                            <DataGridTextColumn Header="Kind" Binding="{Binding Kind}"/>
+                            <DataGridTextColumn Header="Kind (English)" Binding="{Binding EnglishKind}" IsReadOnly="True"/>
                             <DataGridTextColumn Header="Level" Binding="{Binding Level}"/>
                             <DataGridTextColumn Header="Size" Binding="{Binding Size}"/>
                             <DataGridTextColumn Header="Exp" Binding="{Binding Exp}"/>

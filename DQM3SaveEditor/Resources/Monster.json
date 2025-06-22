@@ -1,0 +1,4244 @@
+[
+  {
+    "MonsterId": 87,
+    "FamilyId": 8,
+    "RankId": 7,
+    "Name": "??? Family (A)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 80,
+    "FamilyId": 8,
+    "RankId": 10,
+    "Name": "??? Family (Any)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 86,
+    "FamilyId": 8,
+    "RankId": 6,
+    "Name": "??? Family (B)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 85,
+    "FamilyId": 8,
+    "RankId": 5,
+    "Name": "??? Family (C)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 84,
+    "FamilyId": 8,
+    "RankId": 4,
+    "Name": "??? Family (D)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 83,
+    "FamilyId": 8,
+    "RankId": 3,
+    "Name": "??? Family (E)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 82,
+    "FamilyId": 8,
+    "RankId": 2,
+    "Name": "??? Family (F)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 81,
+    "FamilyId": 8,
+    "RankId": 1,
+    "Name": "??? Family (G)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 88,
+    "FamilyId": 8,
+    "RankId": 8,
+    "Name": "??? Family (S)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 89,
+    "FamilyId": 8,
+    "RankId": 9,
+    "Name": "??? Family (X)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 466,
+    "FamilyId": 5,
+    "RankId": 6,
+    "Name": "A3G15",
+    "JapaneseName": "デュランダル"
+  },
+  {
+    "MonsterId": 503,
+    "FamilyId": 6,
+    "RankId": 8,
+    "Name": "Aamon",
+    "JapaneseName": "エビルプリースト"
+  },
+  {
+    "MonsterId": 433,
+    "FamilyId": 4,
+    "RankId": 6,
+    "Name": "Abominable Showman",
+    "JapaneseName": "ベロリンマン"
+  },
+  {
+    "MonsterId": 443,
+    "FamilyId": 5,
+    "RankId": 4,
+    "Name": "Abracadabrador",
+    "JapaneseName": "サブナック"
+  },
+  {
+    "MonsterId": 359,
+    "FamilyId": 2,
+    "RankId": 4,
+    "Name": "Abyss Diver",
+    "JapaneseName": "ヘルダイバー"
+  },
+  {
+    "MonsterId": 382,
+    "FamilyId": 2,
+    "RankId": 8,
+    "Name": "Abyssal Dragon",
+    "JapaneseName": "ドラゴンアビス"
+  },
+  {
+    "MonsterId": 594,
+    "FamilyId": 5,
+    "RankId": 6,
+    "Name": "Admirer",
+    "JapaneseName": "ジェリーマン"
+  },
+  {
+    "MonsterId": 107,
+    "FamilyId": 2,
+    "RankId": 1,
+    "Name": "Airbagon",
+    "JapaneseName": "はじけドーラ"
+  },
+  {
+    "MonsterId": 593,
+    "FamilyId": 5,
+    "RankId": 6,
+    "Name": "Alarmour",
+    "JapaneseName": "サタンメイル"
+  },
+  {
+    "MonsterId": 289,
+    "FamilyId": 1,
+    "RankId": 3,
+    "Name": "Angel Slime",
+    "JapaneseName": "エンゼルスライム"
+  },
+  {
+    "MonsterId": 108,
+    "FamilyId": 4,
+    "RankId": 1,
+    "Name": "Antguzzler",
+    "JapaneseName": "アントベア"
+  },
+  {
+    "MonsterId": 488,
+    "FamilyId": 6,
+    "RankId": 6,
+    "Name": "Archdemon",
+    "JapaneseName": "アークデーモン"
+  },
+  {
+    "MonsterId": 398,
+    "FamilyId": 3,
+    "RankId": 5,
+    "Name": "Armoured Scorpion",
+    "JapaneseName": "さそりアーマー"
+  },
+  {
+    "MonsterId": 109,
+    "FamilyId": 2,
+    "RankId": 2,
+    "Name": "Armoured Wartoise",
+    "JapaneseName": "アイアンタートル"
+  },
+  {
+    "MonsterId": 495,
+    "FamilyId": 6,
+    "RankId": 7,
+    "Name": "Atlas",
+    "JapaneseName": "アトラス"
+  },
+  {
+    "MonsterId": 601,
+    "FamilyId": 2,
+    "RankId": 6,
+    "Name": "Avarith",
+    "JapaneseName": "フールフール"
+  },
+  {
+    "MonsterId": 110,
+    "FamilyId": 5,
+    "RankId": 2,
+    "Name": "Avian Android",
+    "JapaneseName": "トルトリーナ"
+  },
+  {
+    "MonsterId": 111,
+    "FamilyId": 3,
+    "RankId": 3,
+    "Name": "Awebergine",
+    "JapaneseName": "メランザーナ"
+  },
+  {
+    "MonsterId": 356,
+    "FamilyId": 2,
+    "RankId": 4,
+    "Name": "Axesaurus",
+    "JapaneseName": "アックスドラゴン"
+  },
+  {
+    "MonsterId": 113,
+    "FamilyId": 5,
+    "RankId": 1,
+    "Name": "Bag o' Laughs",
+    "JapaneseName": "わらいぶくろ"
+  },
+  {
+    "MonsterId": 454,
+    "FamilyId": 5,
+    "RankId": 5,
+    "Name": "Bag o' Sweets",
+    "JapaneseName": "スウィートバッグ"
+  },
+  {
+    "MonsterId": 301,
+    "FamilyId": 5,
+    "RankId": 4,
+    "Name": "Bag o' Tricks",
+    "JapaneseName": "ふくぶくろ"
+  },
+  {
+    "MonsterId": 114,
+    "FamilyId": 3,
+    "RankId": 2,
+    "Name": "Bagworm",
+    "JapaneseName": "ミノーン"
+  },
+  {
+    "MonsterId": 407,
+    "FamilyId": 3,
+    "RankId": 6,
+    "Name": "Baleen Mage",
+    "JapaneseName": "ホエールマージ"
+  },
+  {
+    "MonsterId": 463,
+    "FamilyId": 5,
+    "RankId": 6,
+    "Name": "Balhib",
+    "JapaneseName": "ゴールデンゴーレム"
+  },
+  {
+    "MonsterId": 614,
+    "FamilyId": 6,
+    "RankId": 7,
+    "Name": "Balzack",
+    "JapaneseName": "バルザック"
+  },
+  {
+    "MonsterId": 460,
+    "FamilyId": 5,
+    "RankId": 6,
+    "Name": "Bamboogieman",
+    "JapaneseName": "からくりだいみょう"
+  },
+  {
+    "MonsterId": 115,
+    "FamilyId": 5,
+    "RankId": 1,
+    "Name": "Bambooligan",
+    "JapaneseName": "たけやりへい"
+  },
+  {
+    "MonsterId": 116,
+    "FamilyId": 3,
+    "RankId": 1,
+    "Name": "Bantamweight",
+    "JapaneseName": "おおにわとり"
+  },
+  {
+    "MonsterId": 534,
+    "FamilyId": 8,
+    "RankId": 7,
+    "Name": "Baramos",
+    "JapaneseName": "バラモス"
+  },
+  {
+    "MonsterId": 383,
+    "FamilyId": 2,
+    "RankId": 8,
+    "Name": "Barbarus",
+    "JapaneseName": "闇竜バルボロス"
+  },
+  {
+    "MonsterId": 634,
+    "FamilyId": 6,
+    "RankId": 7,
+    "Name": "Barbatos",
+    "JapaneseName": "ヘルバトラー"
+  },
+  {
+    "MonsterId": 582,
+    "FamilyId": 3,
+    "RankId": 3,
+    "Name": "Barracuda",
+    "JapaneseName": "とつげきうお"
+  },
+  {
+    "MonsterId": 290,
+    "FamilyId": 3,
+    "RankId": 3,
+    "Name": "Beanie Meanie",
+    "JapaneseName": "ビーンファイター"
+  },
+  {
+    "MonsterId": 47,
+    "FamilyId": 4,
+    "RankId": 7,
+    "Name": "Beast Family (A)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 40,
+    "FamilyId": 4,
+    "RankId": 10,
+    "Name": "Beast Family (Any)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 46,
+    "FamilyId": 4,
+    "RankId": 6,
+    "Name": "Beast Family (B)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 45,
+    "FamilyId": 4,
+    "RankId": 5,
+    "Name": "Beast Family (C)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 44,
+    "FamilyId": 4,
+    "RankId": 4,
+    "Name": "Beast Family (D)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 43,
+    "FamilyId": 4,
+    "RankId": 3,
+    "Name": "Beast Family (E)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 42,
+    "FamilyId": 4,
+    "RankId": 2,
+    "Name": "Beast Family (F)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 41,
+    "FamilyId": 4,
+    "RankId": 1,
+    "Name": "Beast Family (G)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 48,
+    "FamilyId": 4,
+    "RankId": 8,
+    "Name": "Beast Family (S)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 49,
+    "FamilyId": 4,
+    "RankId": 9,
+    "Name": "Beast Family (X)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 274,
+    "FamilyId": 1,
+    "RankId": 3,
+    "Name": "Behemoth Slime",
+    "JapaneseName": "もりもりスライム"
+  },
+  {
+    "MonsterId": 117,
+    "FamilyId": 6,
+    "RankId": 3,
+    "Name": "Beleth",
+    "JapaneseName": "ベレス"
+  },
+  {
+    "MonsterId": 502,
+    "FamilyId": 6,
+    "RankId": 7,
+    "Name": "Belial",
+    "JapaneseName": "ベリアル"
+  },
+  {
+    "MonsterId": 403,
+    "FamilyId": 3,
+    "RankId": 6,
+    "Name": "Belisha Beakon",
+    "JapaneseName": "アカイライ"
+  },
+  {
+    "MonsterId": 332,
+    "FamilyId": 1,
+    "RankId": 4,
+    "Name": "Beshemoth Slime",
+    "JapaneseName": "もりもりベス"
+  },
+  {
+    "MonsterId": 595,
+    "FamilyId": 6,
+    "RankId": 6,
+    "Name": "Bilhaw",
+    "JapaneseName": "セルゲイナス"
+  },
+  {
+    "MonsterId": 584,
+    "FamilyId": 8,
+    "RankId": 8,
+    "Name": "Bishop Ladja",
+    "JapaneseName": "ゲマ"
+  },
+  {
+    "MonsterId": 373,
+    "FamilyId": 2,
+    "RankId": 6,
+    "Name": "Black Dragon",
+    "JapaneseName": "ブラックドラゴン"
+  },
+  {
+    "MonsterId": 118,
+    "FamilyId": 6,
+    "RankId": 1,
+    "Name": "Blinkster",
+    "JapaneseName": "ベビーマジシャン"
+  },
+  {
+    "MonsterId": 456,
+    "FamilyId": 5,
+    "RankId": 5,
+    "Name": "Blizzybody",
+    "JapaneseName": "ブリザードマン"
+  },
+  {
+    "MonsterId": 487,
+    "FamilyId": 6,
+    "RankId": 5,
+    "Name": "Bloodbonnet",
+    "JapaneseName": "レッドイーター"
+  },
+  {
+    "MonsterId": 511,
+    "FamilyId": 7,
+    "RankId": 4,
+    "Name": "Bloody Hand",
+    "JapaneseName": "ブラッドハンド"
+  },
+  {
+    "MonsterId": 119,
+    "FamilyId": 3,
+    "RankId": 1,
+    "Name": "Bludgerigar",
+    "JapaneseName": "ピッキー"
+  },
+  {
+    "MonsterId": 620,
+    "FamilyId": 5,
+    "RankId": 5,
+    "Name": "Blue Moon",
+    "JapaneseName": "なげきムーン"
+  },
+  {
+    "MonsterId": 624,
+    "FamilyId": 2,
+    "RankId": 5,
+    "Name": "Bobonga",
+    "JapaneseName": "ボボンガー"
+  },
+  {
+    "MonsterId": 120,
+    "FamilyId": 6,
+    "RankId": 1,
+    "Name": "Bodkin Archer",
+    "JapaneseName": "リリパット"
+  },
+  {
+    "MonsterId": 295,
+    "FamilyId": 6,
+    "RankId": 3,
+    "Name": "Bodkin Fletcher",
+    "JapaneseName": "どくやずきん"
+  },
+  {
+    "MonsterId": 458,
+    "FamilyId": 5,
+    "RankId": 5,
+    "Name": "Bomboulder",
+    "JapaneseName": "メガザルロック"
+  },
+  {
+    "MonsterId": 523,
+    "FamilyId": 7,
+    "RankId": 6,
+    "Name": "Bone Baron",
+    "JapaneseName": "しにがみきぞく"
+  },
+  {
+    "MonsterId": 514,
+    "FamilyId": 7,
+    "RankId": 4,
+    "Name": "Bone Idol",
+    "JapaneseName": "ほねリーダー"
+  },
+  {
+    "MonsterId": 532,
+    "FamilyId": 7,
+    "RankId": 8,
+    "Name": "Bones of Baramos",
+    "JapaneseName": "バラモスゾンビ"
+  },
+  {
+    "MonsterId": 121,
+    "FamilyId": 5,
+    "RankId": 2,
+    "Name": "Bongo Drongo",
+    "JapaneseName": "ドラムゴート"
+  },
+  {
+    "MonsterId": 625,
+    "FamilyId": 5,
+    "RankId": 5,
+    "Name": "Bongo Fandango",
+    "JapaneseName": "ホワイトビート"
+  },
+  {
+    "MonsterId": 122,
+    "FamilyId": 4,
+    "RankId": 2,
+    "Name": "Boppin' Badger",
+    "JapaneseName": "ポンポコだぬき"
+  },
+  {
+    "MonsterId": 579,
+    "FamilyId": 2,
+    "RankId": 4,
+    "Name": "Boreal Serpent",
+    "JapaneseName": "スノードラゴン"
+  },
+  {
+    "MonsterId": 476,
+    "FamilyId": 6,
+    "RankId": 4,
+    "Name": "Boss Troll",
+    "JapaneseName": "ボストロール"
+  },
+  {
+    "MonsterId": 123,
+    "FamilyId": 1,
+    "RankId": 2,
+    "Name": "Box Slime",
+    "JapaneseName": "ボックススライム"
+  },
+  {
+    "MonsterId": 390,
+    "FamilyId": 3,
+    "RankId": 4,
+    "Name": "Brimstone Bulb",
+    "JapaneseName": "じごくのたまねぎ"
+  },
+  {
+    "MonsterId": 124,
+    "FamilyId": 2,
+    "RankId": 2,
+    "Name": "Briny Bronco",
+    "JapaneseName": "シーホース"
+  },
+  {
+    "MonsterId": 308,
+    "FamilyId": 5,
+    "RankId": 3,
+    "Name": "Brollygagger",
+    "JapaneseName": "キラーアンブレラ"
+  },
+  {
+    "MonsterId": 307,
+    "FamilyId": 4,
+    "RankId": 3,
+    "Name": "Brownie",
+    "JapaneseName": "ブラウニー"
+  },
+  {
+    "MonsterId": 103,
+    "FamilyId": 1,
+    "RankId": 1,
+    "Name": "Bubble Slime",
+    "JapaneseName": "バブルスライム"
+  },
+  {
+    "MonsterId": 126,
+    "FamilyId": 1,
+    "RankId": 1,
+    "Name": "Buddy Slime",
+    "JapaneseName": "スライムツリー"
+  },
+  {
+    "MonsterId": 432,
+    "FamilyId": 4,
+    "RankId": 6,
+    "Name": "Buffalogre",
+    "JapaneseName": "バッファロン"
+  },
+  {
+    "MonsterId": 127,
+    "FamilyId": 3,
+    "RankId": 2,
+    "Name": "Bullfinch",
+    "JapaneseName": "あばれうしどり"
+  },
+  {
+    "MonsterId": 128,
+    "FamilyId": 4,
+    "RankId": 1,
+    "Name": "Bunicorn",
+    "JapaneseName": "いっかくうさぎ"
+  },
+  {
+    "MonsterId": 461,
+    "FamilyId": 5,
+    "RankId": 6,
+    "Name": "Buntzenberner",
+    "JapaneseName": "ギャスモン"
+  },
+  {
+    "MonsterId": 129,
+    "FamilyId": 3,
+    "RankId": 2,
+    "Name": "Cactiball",
+    "JapaneseName": "サボテンボール"
+  },
+  {
+    "MonsterId": 537,
+    "FamilyId": 8,
+    "RankId": 8,
+    "Name": "Calasmos",
+    "JapaneseName": "邪神ニズゼルファ"
+  },
+  {
+    "MonsterId": 419,
+    "FamilyId": 4,
+    "RankId": 4,
+    "Name": "Calypso King",
+    "JapaneseName": "トロピカキング"
+  },
+  {
+    "MonsterId": 130,
+    "FamilyId": 4,
+    "RankId": 1,
+    "Name": "Candy Cat",
+    "JapaneseName": "しましまキャット"
+  },
+  {
+    "MonsterId": 131,
+    "FamilyId": 5,
+    "RankId": 2,
+    "Name": "Cannibox",
+    "JapaneseName": "ひとくいばこ"
+  },
+  {
+    "MonsterId": 132,
+    "FamilyId": 6,
+    "RankId": 2,
+    "Name": "Cannonbrawler",
+    "JapaneseName": "ランドセーラー"
+  },
+  {
+    "MonsterId": 133,
+    "FamilyId": 3,
+    "RankId": 1,
+    "Name": "Capsichum",
+    "JapaneseName": "くしざしツインズ"
+  },
+  {
+    "MonsterId": 394,
+    "FamilyId": 3,
+    "RankId": 4,
+    "Name": "Carnivine",
+    "JapaneseName": "ひとくいそう"
+  },
+  {
+    "MonsterId": 276,
+    "FamilyId": 2,
+    "RankId": 3,
+    "Name": "Cauldragon",
+    "JapaneseName": "毒つぼドラゴン"
+  },
+  {
+    "MonsterId": 530,
+    "FamilyId": 7,
+    "RankId": 7,
+    "Name": "Cetacean Sorcerer",
+    "JapaneseName": "ホエールロード"
+  },
+  {
+    "MonsterId": 420,
+    "FamilyId": 4,
+    "RankId": 4,
+    "Name": "Cheater Cheetah",
+    "JapaneseName": "ベンガル"
+  },
+  {
+    "MonsterId": 567,
+    "FamilyId": 2,
+    "RankId": 5,
+    "Name": "Chihuawyrm",
+    "JapaneseName": "ウルフドラゴン"
+  },
+  {
+    "MonsterId": 134,
+    "FamilyId": 3,
+    "RankId": 3,
+    "Name": "Chimaera",
+    "JapaneseName": "キメラ"
+  },
+  {
+    "MonsterId": 135,
+    "FamilyId": 5,
+    "RankId": 2,
+    "Name": "Chocolate Golem",
+    "JapaneseName": "チョコゴーレム"
+  },
+  {
+    "MonsterId": 293,
+    "FamilyId": 7,
+    "RankId": 3,
+    "Name": "Chocolate Whisp",
+    "JapaneseName": "チョコホイップ"
+  },
+  {
+    "MonsterId": 376,
+    "FamilyId": 2,
+    "RankId": 7,
+    "Name": "Clawvus",
+    "JapaneseName": "クームヤーガ"
+  },
+  {
+    "MonsterId": 592,
+    "FamilyId": 3,
+    "RankId": 6,
+    "Name": "Clobster",
+    "JapaneseName": "荒野シュリンプ"
+  },
+  {
+    "MonsterId": 136,
+    "FamilyId": 5,
+    "RankId": 3,
+    "Name": "Clockwork Cuckoo",
+    "JapaneseName": "ガチャコッコ"
+  },
+  {
+    "MonsterId": 137,
+    "FamilyId": 6,
+    "RankId": 2,
+    "Name": "Cloud Surfer",
+    "JapaneseName": "くものきょじん"
+  },
+  {
+    "MonsterId": 329,
+    "FamilyId": 1,
+    "RankId": 4,
+    "Name": "Cococoa Blobelisk",
+    "JapaneseName": "チョコタワー"
+  },
+  {
+    "MonsterId": 444,
+    "FamilyId": 5,
+    "RankId": 4,
+    "Name": "Coralossus",
+    "JapaneseName": "シーゴーレム"
+  },
+  {
+    "MonsterId": 512,
+    "FamilyId": 7,
+    "RankId": 4,
+    "Name": "Corpsickle",
+    "JapaneseName": "ポイズンゾンビ"
+  },
+  {
+    "MonsterId": 540,
+    "FamilyId": 8,
+    "RankId": 8,
+    "Name": "Corvus",
+    "JapaneseName": "堕天使エルギオス"
+  },
+  {
+    "MonsterId": 404,
+    "FamilyId": 3,
+    "RankId": 6,
+    "Name": "Cosmic Chimaera",
+    "JapaneseName": "スターキメラ"
+  },
+  {
+    "MonsterId": 570,
+    "FamilyId": 3,
+    "RankId": 5,
+    "Name": "Crabber Dabber Doo",
+    "JapaneseName": "じごくのハサミ"
+  },
+  {
+    "MonsterId": 306,
+    "FamilyId": 3,
+    "RankId": 3,
+    "Name": "Crabid",
+    "JapaneseName": "ぐんたいガニ"
+  },
+  {
+    "MonsterId": 336,
+    "FamilyId": 1,
+    "RankId": 5,
+    "Name": "Crème Caraslime",
+    "JapaneseName": "スライムプディング"
+  },
+  {
+    "MonsterId": 138,
+    "FamilyId": 2,
+    "RankId": 2,
+    "Name": "Croc-a-Bugle-Doo",
+    "JapaneseName": "クロコマーチ"
+  },
+  {
+    "MonsterId": 278,
+    "FamilyId": 4,
+    "RankId": 3,
+    "Name": "Cross Eye",
+    "JapaneseName": "ビックアイ"
+  },
+  {
+    "MonsterId": 365,
+    "FamilyId": 2,
+    "RankId": 5,
+    "Name": "Crowgre",
+    "JapaneseName": "シャンタク"
+  },
+  {
+    "MonsterId": 139,
+    "FamilyId": 3,
+    "RankId": 1,
+    "Name": "Cruelcumber",
+    "JapaneseName": "ズッキーニャ"
+  },
+  {
+    "MonsterId": 140,
+    "FamilyId": 5,
+    "RankId": 1,
+    "Name": "Cumaulus",
+    "JapaneseName": "ギズモ"
+  },
+  {
+    "MonsterId": 331,
+    "FamilyId": 1,
+    "RankId": 4,
+    "Name": "Cureslime",
+    "JapaneseName": "ベホマスライム"
+  },
+  {
+    "MonsterId": 509,
+    "FamilyId": 7,
+    "RankId": 4,
+    "Name": "Cursed Crooner",
+    "JapaneseName": "タタリ御前"
+  },
+  {
+    "MonsterId": 337,
+    "FamilyId": 1,
+    "RankId": 5,
+    "Name": "Cyber Slime",
+    "JapaneseName": "スライムボーグ"
+  },
+  {
+    "MonsterId": 314,
+    "FamilyId": 6,
+    "RankId": 3,
+    "Name": "Cyclops",
+    "JapaneseName": "サイクロプス"
+  },
+  {
+    "MonsterId": 141,
+    "FamilyId": 3,
+    "RankId": 2,
+    "Name": "Cyclown",
+    "JapaneseName": "かまいたち"
+  },
+  {
+    "MonsterId": 142,
+    "FamilyId": 2,
+    "RankId": 1,
+    "Name": "Damselfly",
+    "JapaneseName": "フェアリードラゴン"
+  },
+  {
+    "MonsterId": 143,
+    "FamilyId": 6,
+    "RankId": 2,
+    "Name": "Dancing Devil",
+    "JapaneseName": "びっくりサタン"
+  },
+  {
+    "MonsterId": 451,
+    "FamilyId": 5,
+    "RankId": 4,
+    "Name": "Dancing Flame",
+    "JapaneseName": "フレイム"
+  },
+  {
+    "MonsterId": 387,
+    "FamilyId": 3,
+    "RankId": 4,
+    "Name": "Dangler Fish",
+    "JapaneseName": "エビルアングラー"
+  },
+  {
+    "MonsterId": 428,
+    "FamilyId": 4,
+    "RankId": 5,
+    "Name": "Dark Hare",
+    "JapaneseName": "ブラバニクイーン"
+  },
+  {
+    "MonsterId": 328,
+    "FamilyId": 1,
+    "RankId": 4,
+    "Name": "Dark King Slime",
+    "JapaneseName": "ダークキング"
+  },
+  {
+    "MonsterId": 431,
+    "FamilyId": 4,
+    "RankId": 6,
+    "Name": "Dark Sabrecat",
+    "JapaneseName": "シャドウパンサー"
+  },
+  {
+    "MonsterId": 144,
+    "FamilyId": 4,
+    "RankId": 3,
+    "Name": "Dark Sabrecub",
+    "JapaneseName": "シャドウベビー"
+  },
+  {
+    "MonsterId": 145,
+    "FamilyId": 1,
+    "RankId": 3,
+    "Name": "Dark Slime",
+    "JapaneseName": "ダークスライム"
+  },
+  {
+    "MonsterId": 146,
+    "FamilyId": 7,
+    "RankId": 3,
+    "Name": "Dead Resident",
+    "JapaneseName": "しのどれい"
+  },
+  {
+    "MonsterId": 67,
+    "FamilyId": 6,
+    "RankId": 7,
+    "Name": "Demon Family (A)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 60,
+    "FamilyId": 6,
+    "RankId": 10,
+    "Name": "Demon Family (Any)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 66,
+    "FamilyId": 6,
+    "RankId": 6,
+    "Name": "Demon Family (B)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 65,
+    "FamilyId": 6,
+    "RankId": 5,
+    "Name": "Demon Family (C)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 64,
+    "FamilyId": 6,
+    "RankId": 4,
+    "Name": "Demon Family (D)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 63,
+    "FamilyId": 6,
+    "RankId": 3,
+    "Name": "Demon Family (E)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 62,
+    "FamilyId": 6,
+    "RankId": 2,
+    "Name": "Demon Family (F)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 61,
+    "FamilyId": 6,
+    "RankId": 1,
+    "Name": "Demon Family (G)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 68,
+    "FamilyId": 6,
+    "RankId": 8,
+    "Name": "Demon Family (S)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 69,
+    "FamilyId": 6,
+    "RankId": 9,
+    "Name": "Demon Family (X)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 527,
+    "FamilyId": 7,
+    "RankId": 6,
+    "Name": "Demon-at-arms",
+    "JapaneseName": "まおうのつかい"
+  },
+  {
+    "MonsterId": 147,
+    "FamilyId": 6,
+    "RankId": 2,
+    "Name": "Dessert Demon",
+    "JapaneseName": "デザートデーモン"
+  },
+  {
+    "MonsterId": 587,
+    "FamilyId": 8,
+    "RankId": 8,
+    "Name": "Dhoulmagus",
+    "JapaneseName": "ドルマゲス"
+  },
+  {
+    "MonsterId": 342,
+    "FamilyId": 1,
+    "RankId": 6,
+    "Name": "Diamond Slime",
+    "JapaneseName": "クリスタルスライム"
+  },
+  {
+    "MonsterId": 515,
+    "FamilyId": 7,
+    "RankId": 4,
+    "Name": "Discombombulator",
+    "JapaneseName": "ポムポムボム"
+  },
+  {
+    "MonsterId": 148,
+    "FamilyId": 5,
+    "RankId": 2,
+    "Name": "Disfigurine",
+    "JapaneseName": "とげジョボー"
+  },
+  {
+    "MonsterId": 599,
+    "FamilyId": 4,
+    "RankId": 6,
+    "Name": "Don Mole",
+    "JapaneseName": "ドンモグーラ"
+  },
+  {
+    "MonsterId": 528,
+    "FamilyId": 7,
+    "RankId": 6,
+    "Name": "Dora-in-Grey",
+    "JapaneseName": "メルトア"
+  },
+  {
+    "MonsterId": 297,
+    "FamilyId": 6,
+    "RankId": 3,
+    "Name": "Drackolyte",
+    "JapaneseName": "メイジドラキー"
+  },
+  {
+    "MonsterId": 149,
+    "FamilyId": 6,
+    "RankId": 1,
+    "Name": "Dracky",
+    "JapaneseName": "ドラキー"
+  },
+  {
+    "MonsterId": 484,
+    "FamilyId": 6,
+    "RankId": 5,
+    "Name": "Drackyma",
+    "JapaneseName": "ドラキーマ"
+  },
+  {
+    "MonsterId": 151,
+    "FamilyId": 2,
+    "RankId": 2,
+    "Name": "Drag Racer",
+    "JapaneseName": "ダッシュラン"
+  },
+  {
+    "MonsterId": 27,
+    "FamilyId": 2,
+    "RankId": 7,
+    "Name": "Dragon Family (A)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 20,
+    "FamilyId": 2,
+    "RankId": 10,
+    "Name": "Dragon Family (Any)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 26,
+    "FamilyId": 2,
+    "RankId": 6,
+    "Name": "Dragon Family (B)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 25,
+    "FamilyId": 2,
+    "RankId": 5,
+    "Name": "Dragon Family (C)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 24,
+    "FamilyId": 2,
+    "RankId": 4,
+    "Name": "Dragon Family (D)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 23,
+    "FamilyId": 2,
+    "RankId": 3,
+    "Name": "Dragon Family (E)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 22,
+    "FamilyId": 2,
+    "RankId": 2,
+    "Name": "Dragon Family (F)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 21,
+    "FamilyId": 2,
+    "RankId": 1,
+    "Name": "Dragon Family (G)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 28,
+    "FamilyId": 2,
+    "RankId": 8,
+    "Name": "Dragon Family (S)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 29,
+    "FamilyId": 2,
+    "RankId": 9,
+    "Name": "Dragon Family (X)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 358,
+    "FamilyId": 2,
+    "RankId": 4,
+    "Name": "Dragon Rider",
+    "JapaneseName": "ドラゴンライダー"
+  },
+  {
+    "MonsterId": 326,
+    "FamilyId": 1,
+    "RankId": 4,
+    "Name": "Dragon Slime",
+    "JapaneseName": "スライムブレス"
+  },
+  {
+    "MonsterId": 150,
+    "FamilyId": 2,
+    "RankId": 1,
+    "Name": "Dragonthorn",
+    "JapaneseName": "いばらドラゴン"
+  },
+  {
+    "MonsterId": 591,
+    "FamilyId": 4,
+    "RankId": 6,
+    "Name": "Draguar",
+    "JapaneseName": "ゲリュオン"
+  },
+  {
+    "MonsterId": 152,
+    "FamilyId": 1,
+    "RankId": 2,
+    "Name": "Drake Slime",
+    "JapaneseName": "ドラゴスライム"
+  },
+  {
+    "MonsterId": 589,
+    "FamilyId": 2,
+    "RankId": 6,
+    "Name": "Drakulard",
+    "JapaneseName": "ギガントドラゴン"
+  },
+  {
+    "MonsterId": 313,
+    "FamilyId": 2,
+    "RankId": 3,
+    "Name": "Drakularge",
+    "JapaneseName": "ギガントヒルズ"
+  },
+  {
+    "MonsterId": 378,
+    "FamilyId": 2,
+    "RankId": 7,
+    "Name": "Dread Dragon",
+    "JapaneseName": "ダースドラゴン"
+  },
+  {
+    "MonsterId": 371,
+    "FamilyId": 2,
+    "RankId": 6,
+    "Name": "Dread Dragooner",
+    "JapaneseName": "ハデスナイト"
+  },
+  {
+    "MonsterId": 153,
+    "FamilyId": 7,
+    "RankId": 1,
+    "Name": "Drohl Drone",
+    "JapaneseName": "ドロル"
+  },
+  {
+    "MonsterId": 524,
+    "FamilyId": 7,
+    "RankId": 6,
+    "Name": "Drooling Ghoul",
+    "JapaneseName": "スモールグール"
+  },
+  {
+    "MonsterId": 606,
+    "FamilyId": 7,
+    "RankId": 5,
+    "Name": "Dullahan",
+    "JapaneseName": "デュラハーン"
+  },
+  {
+    "MonsterId": 154,
+    "FamilyId": 5,
+    "RankId": 1,
+    "Name": "Eggsoskeleton",
+    "JapaneseName": "からくりエッグ"
+  },
+  {
+    "MonsterId": 351,
+    "FamilyId": 1,
+    "RankId": 7,
+    "Name": "Emperor Slime",
+    "JapaneseName": "スライムエンペラー"
+  },
+  {
+    "MonsterId": 437,
+    "FamilyId": 4,
+    "RankId": 7,
+    "Name": "Equinox",
+    "JapaneseName": "黒竜丸"
+  },
+  {
+    "MonsterId": 155,
+    "FamilyId": 5,
+    "RankId": 2,
+    "Name": "Erazor Blade",
+    "JapaneseName": "ひとくいサーベル"
+  },
+  {
+    "MonsterId": 156,
+    "FamilyId": 5,
+    "RankId": 3,
+    "Name": "Escudogre",
+    "JapaneseName": "シールドオーガ"
+  },
+  {
+    "MonsterId": 632,
+    "FamilyId": 8,
+    "RankId": 9,
+    "Name": "Estark",
+    "JapaneseName": "エスターク"
+  },
+  {
+    "MonsterId": 354,
+    "FamilyId": 2,
+    "RankId": 2,
+    "Name": "Ethereal Serpent",
+    "JapaneseName": "スカイドラゴン"
+  },
+  {
+    "MonsterId": 617,
+    "FamilyId": 4,
+    "RankId": 7,
+    "Name": "Evil Sir Leopold",
+    "JapaneseName": "魔犬レオパルド"
+  },
+  {
+    "MonsterId": 421,
+    "FamilyId": 4,
+    "RankId": 4,
+    "Name": "Ewwnicorn",
+    "JapaneseName": "ユニコーン"
+  },
+  {
+    "MonsterId": 459,
+    "FamilyId": 5,
+    "RankId": 5,
+    "Name": "Face Invader",
+    "JapaneseName": "ルバンカ"
+  },
+  {
+    "MonsterId": 400,
+    "FamilyId": 3,
+    "RankId": 5,
+    "Name": "Fandangow",
+    "JapaneseName": "ダンスニードル"
+  },
+  {
+    "MonsterId": 157,
+    "FamilyId": 4,
+    "RankId": 1,
+    "Name": "Fat Rat",
+    "JapaneseName": "おおねずみ"
+  },
+  {
+    "MonsterId": 159,
+    "FamilyId": 1,
+    "RankId": 2,
+    "Name": "Feral Slime",
+    "JapaneseName": "ジャングラー"
+  },
+  {
+    "MonsterId": 158,
+    "FamilyId": 4,
+    "RankId": 1,
+    "Name": "Feralball",
+    "JapaneseName": "ファーラット"
+  },
+  {
+    "MonsterId": 516,
+    "FamilyId": 7,
+    "RankId": 4,
+    "Name": "Fightgeist",
+    "JapaneseName": "メトロゴースト"
+  },
+  {
+    "MonsterId": 405,
+    "FamilyId": 3,
+    "RankId": 6,
+    "Name": "Firebird",
+    "JapaneseName": "ひくいどり"
+  },
+  {
+    "MonsterId": 160,
+    "FamilyId": 7,
+    "RankId": 1,
+    "Name": "Firespirit",
+    "JapaneseName": "メラゴースト"
+  },
+  {
+    "MonsterId": 449,
+    "FamilyId": 5,
+    "RankId": 4,
+    "Name": "Firn Fiend",
+    "JapaneseName": "ひょうがまじん"
+  },
+  {
+    "MonsterId": 457,
+    "FamilyId": 5,
+    "RankId": 5,
+    "Name": "Flamethrower",
+    "JapaneseName": "ほのおのせんし"
+  },
+  {
+    "MonsterId": 364,
+    "FamilyId": 2,
+    "RankId": 5,
+    "Name": "Flapdragon",
+    "JapaneseName": "コアトル"
+  },
+  {
+    "MonsterId": 506,
+    "FamilyId": 7,
+    "RankId": 3,
+    "Name": "Float-o-Copier",
+    "JapaneseName": "マネマネ"
+  },
+  {
+    "MonsterId": 546,
+    "FamilyId": 8,
+    "RankId": 8,
+    "Name": "Fluffy",
+    "JapaneseName": "わたぼう"
+  },
+  {
+    "MonsterId": 571,
+    "FamilyId": 6,
+    "RankId": 3,
+    "Name": "Flurry Fiend",
+    "JapaneseName": "フルーリーサタン"
+  },
+  {
+    "MonsterId": 640,
+    "FamilyId": 1,
+    "RankId": 5,
+    "Name": "Flutter Slime",
+    "JapaneseName": "スライムフェアリー"
+  },
+  {
+    "MonsterId": 455,
+    "FamilyId": 5,
+    "RankId": 5,
+    "Name": "Flying Saucers",
+    "JapaneseName": "デスソーサー"
+  },
+  {
+    "MonsterId": 161,
+    "FamilyId": 2,
+    "RankId": 2,
+    "Name": "Flython",
+    "JapaneseName": "ウィングスネーク"
+  },
+  {
+    "MonsterId": 602,
+    "FamilyId": 3,
+    "RankId": 6,
+    "Name": "Foebergine",
+    "JapaneseName": "ブルベリーノ"
+  },
+  {
+    "MonsterId": 162,
+    "FamilyId": 5,
+    "RankId": 2,
+    "Name": "Foo Dog",
+    "JapaneseName": "あばれこまいぬ"
+  },
+  {
+    "MonsterId": 406,
+    "FamilyId": 3,
+    "RankId": 6,
+    "Name": "Fowl Beast",
+    "JapaneseName": "ブラッドオックス"
+  },
+  {
+    "MonsterId": 281,
+    "FamilyId": 5,
+    "RankId": 3,
+    "Name": "Freezing Fog",
+    "JapaneseName": "フロストギズモ"
+  },
+  {
+    "MonsterId": 106,
+    "FamilyId": 1,
+    "RankId": 1,
+    "Name": "Fright Bulb",
+    "JapaneseName": "マンドラ"
+  },
+  {
+    "MonsterId": 522,
+    "FamilyId": 7,
+    "RankId": 5,
+    "Name": "Fright Knight",
+    "JapaneseName": "ナイトリッチ"
+  },
+  {
+    "MonsterId": 605,
+    "FamilyId": 7,
+    "RankId": 3,
+    "Name": "Frightful Conductor",
+    "JapaneseName": "デスマエストロ"
+  },
+  {
+    "MonsterId": 311,
+    "FamilyId": 7,
+    "RankId": 3,
+    "Name": "Frolicker",
+    "JapaneseName": "ベロベロ"
+  },
+  {
+    "MonsterId": 441,
+    "FamilyId": 5,
+    "RankId": 3,
+    "Name": "Fromage Fey",
+    "JapaneseName": "ケミカルゼリー"
+  },
+  {
+    "MonsterId": 164,
+    "FamilyId": 5,
+    "RankId": 1,
+    "Name": "Fromage Fray",
+    "JapaneseName": "フォンデュ"
+  },
+  {
+    "MonsterId": 450,
+    "FamilyId": 5,
+    "RankId": 4,
+    "Name": "Frostburn",
+    "JapaneseName": "ブリザード"
+  },
+  {
+    "MonsterId": 165,
+    "FamilyId": 7,
+    "RankId": 1,
+    "Name": "Funghoul",
+    "JapaneseName": "おばけキノコ"
+  },
+  {
+    "MonsterId": 585,
+    "FamilyId": 8,
+    "RankId": 8,
+    "Name": "Fuzzy",
+    "JapaneseName": "ぴぴぼう"
+  },
+  {
+    "MonsterId": 557,
+    "FamilyId": 6,
+    "RankId": 5,
+    "Name": "Gander",
+    "JapaneseName": "デスペクテル"
+  },
+  {
+    "MonsterId": 409,
+    "FamilyId": 3,
+    "RankId": 6,
+    "Name": "Gangleclaw",
+    "JapaneseName": "ロックちょう"
+  },
+  {
+    "MonsterId": 580,
+    "FamilyId": 4,
+    "RankId": 4,
+    "Name": "Gargoyle",
+    "JapaneseName": "ガーゴイル"
+  },
+  {
+    "MonsterId": 272,
+    "FamilyId": 3,
+    "RankId": 2,
+    "Name": "Garuda",
+    "JapaneseName": "ガルーダ"
+  },
+  {
+    "MonsterId": 355,
+    "FamilyId": 2,
+    "RankId": 3,
+    "Name": "Gasbagon",
+    "JapaneseName": "フーセンドラゴン"
+  },
+  {
+    "MonsterId": 349,
+    "FamilyId": 1,
+    "RankId": 7,
+    "Name": "Gem slime",
+    "JapaneseName": "ゴールデンスライム"
+  },
+  {
+    "MonsterId": 166,
+    "FamilyId": 7,
+    "RankId": 1,
+    "Name": "Ghost",
+    "JapaneseName": "ゴースト"
+  },
+  {
+    "MonsterId": 491,
+    "FamilyId": 6,
+    "RankId": 6,
+    "Name": "Gigantes",
+    "JapaneseName": "ギガンテス"
+  },
+  {
+    "MonsterId": 563,
+    "FamilyId": 4,
+    "RankId": 4,
+    "Name": "Giruffian",
+    "JapaneseName": "ジラフマスター"
+  },
+  {
+    "MonsterId": 626,
+    "FamilyId": 4,
+    "RankId": 5,
+    "Name": "Gnumesis",
+    "JapaneseName": "まかいじゅう"
+  },
+  {
+    "MonsterId": 610,
+    "FamilyId": 4,
+    "RankId": 7,
+    "Name": "Gnuriel",
+    "JapaneseName": "デスゴーゴン"
+  },
+  {
+    "MonsterId": 464,
+    "FamilyId": 5,
+    "RankId": 6,
+    "Name": "Golem",
+    "JapaneseName": "ゴーレム"
+  },
+  {
+    "MonsterId": 486,
+    "FamilyId": 6,
+    "RankId": 5,
+    "Name": "Goobonce",
+    "JapaneseName": "ブルーイーター"
+  },
+  {
+    "MonsterId": 282,
+    "FamilyId": 5,
+    "RankId": 3,
+    "Name": "Goodybag",
+    "JapaneseName": "おどるほうせき"
+  },
+  {
+    "MonsterId": 347,
+    "FamilyId": 1,
+    "RankId": 6,
+    "Name": "Goomulonimbus",
+    "JapaneseName": "ふうらいスライム"
+  },
+  {
+    "MonsterId": 167,
+    "FamilyId": 1,
+    "RankId": 1,
+    "Name": "Goonache Goodie",
+    "JapaneseName": "スライムコロネ"
+  },
+  {
+    "MonsterId": 353,
+    "FamilyId": 1,
+    "RankId": 8,
+    "Name": "Grandpa Slime",
+    "JapaneseName": "グランスライム"
+  },
+  {
+    "MonsterId": 568,
+    "FamilyId": 5,
+    "RankId": 5,
+    "Name": "Graven Idol",
+    "JapaneseName": "王のはかもり"
+  },
+  {
+    "MonsterId": 357,
+    "FamilyId": 2,
+    "RankId": 4,
+    "Name": "Great Argon Lizard",
+    "JapaneseName": "アルゴングレート"
+  },
+  {
+    "MonsterId": 369,
+    "FamilyId": 2,
+    "RankId": 6,
+    "Name": "Great Dragon",
+    "JapaneseName": "グレイトドラゴン"
+  },
+  {
+    "MonsterId": 611,
+    "FamilyId": 5,
+    "RankId": 7,
+    "Name": "Great Keeper",
+    "JapaneseName": "てんのもんばん"
+  },
+  {
+    "MonsterId": 552,
+    "FamilyId": 4,
+    "RankId": 4,
+    "Name": "Great Sabercat",
+    "JapaneseName": "キラーパンサー"
+  },
+  {
+    "MonsterId": 168,
+    "FamilyId": 4,
+    "RankId": 1,
+    "Name": "Great Sabrecub",
+    "JapaneseName": "ベビーパンサー"
+  },
+  {
+    "MonsterId": 312,
+    "FamilyId": 4,
+    "RankId": 8,
+    "Name": "Greater Platypink",
+    "JapaneseName": "ももいろキング"
+  },
+  {
+    "MonsterId": 427,
+    "FamilyId": 4,
+    "RankId": 5,
+    "Name": "Greater Platypunk",
+    "JapaneseName": "ビッグももんじゃ"
+  },
+  {
+    "MonsterId": 590,
+    "FamilyId": 7,
+    "RankId": 6,
+    "Name": "Green Bogey",
+    "JapaneseName": "キラーシャドー"
+  },
+  {
+    "MonsterId": 321,
+    "FamilyId": 2,
+    "RankId": 3,
+    "Name": "Green Dragon",
+    "JapaneseName": "ドラゴン"
+  },
+  {
+    "MonsterId": 169,
+    "FamilyId": 6,
+    "RankId": 1,
+    "Name": "Gremlin",
+    "JapaneseName": "グレムリン"
+  },
+  {
+    "MonsterId": 380,
+    "FamilyId": 2,
+    "RankId": 8,
+    "Name": "Greygnarl",
+    "JapaneseName": "グレイナル"
+  },
+  {
+    "MonsterId": 569,
+    "FamilyId": 3,
+    "RankId": 5,
+    "Name": "Grillerpillar",
+    "JapaneseName": "かえんムカデ"
+  },
+  {
+    "MonsterId": 480,
+    "FamilyId": 6,
+    "RankId": 5,
+    "Name": "Grim Keeper",
+    "JapaneseName": "じごくのもんばん"
+  },
+  {
+    "MonsterId": 513,
+    "FamilyId": 7,
+    "RankId": 4,
+    "Name": "Grim Rider",
+    "JapaneseName": "ボーンナイト"
+  },
+  {
+    "MonsterId": 619,
+    "FamilyId": 7,
+    "RankId": 5,
+    "Name": "Grincinerator",
+    "JapaneseName": "黄泉のほのお"
+  },
+  {
+    "MonsterId": 310,
+    "FamilyId": 7,
+    "RankId": 3,
+    "Name": "Grinferno",
+    "JapaneseName": "きつねび"
+  },
+  {
+    "MonsterId": 412,
+    "FamilyId": 3,
+    "RankId": 7,
+    "Name": "Gripevine",
+    "JapaneseName": "ローズバトラー"
+  },
+  {
+    "MonsterId": 526,
+    "FamilyId": 7,
+    "RankId": 6,
+    "Name": "Grotwyrm",
+    "JapaneseName": "ドラゴンコープス"
+  },
+  {
+    "MonsterId": 494,
+    "FamilyId": 6,
+    "RankId": 6,
+    "Name": "Grrrgoyle",
+    "JapaneseName": "ホラービースト"
+  },
+  {
+    "MonsterId": 470,
+    "FamilyId": 6,
+    "RankId": 4,
+    "Name": "Gryphon",
+    "JapaneseName": "サイレス"
+  },
+  {
+    "MonsterId": 170,
+    "FamilyId": 4,
+    "RankId": 2,
+    "Name": "Guaardvark",
+    "JapaneseName": "スカルガルー"
+  },
+  {
+    "MonsterId": 372,
+    "FamilyId": 2,
+    "RankId": 6,
+    "Name": "Hacksaurus",
+    "JapaneseName": "バトルレックス"
+  },
+  {
+    "MonsterId": 395,
+    "FamilyId": 3,
+    "RankId": 4,
+    "Name": "Hades Condor",
+    "JapaneseName": "ヘルコンドル"
+  },
+  {
+    "MonsterId": 280,
+    "FamilyId": 4,
+    "RankId": 3,
+    "Name": "Ham Shamwitch",
+    "JapaneseName": "トンブレロ"
+  },
+  {
+    "MonsterId": 171,
+    "FamilyId": 4,
+    "RankId": 1,
+    "Name": "Hammerhood",
+    "JapaneseName": "おおきづち"
+  },
+  {
+    "MonsterId": 462,
+    "FamilyId": 5,
+    "RankId": 6,
+    "Name": "Hard-Boiled Eggsoskeleton",
+    "JapaneseName": "グレイトボンバー"
+  },
+  {
+    "MonsterId": 542,
+    "FamilyId": 8,
+    "RankId": 8,
+    "Name": "Hargon",
+    "JapaneseName": "ハーゴン"
+  },
+  {
+    "MonsterId": 316,
+    "FamilyId": 5,
+    "RankId": 3,
+    "Name": "Harmour",
+    "JapaneseName": "デビルアーマー"
+  },
+  {
+    "MonsterId": 172,
+    "FamilyId": 4,
+    "RankId": 2,
+    "Name": "Hawk Man",
+    "JapaneseName": "ホークマン"
+  },
+  {
+    "MonsterId": 562,
+    "FamilyId": 7,
+    "RankId": 6,
+    "Name": "Headless Horseman",
+    "JapaneseName": "デュラハンナイト"
+  },
+  {
+    "MonsterId": 104,
+    "FamilyId": 1,
+    "RankId": 1,
+    "Name": "Healslime",
+    "JapaneseName": "ホイミスライム"
+  },
+  {
+    "MonsterId": 367,
+    "FamilyId": 2,
+    "RankId": 5,
+    "Name": "Heligator",
+    "JapaneseName": "ワニバーン"
+  },
+  {
+    "MonsterId": 529,
+    "FamilyId": 7,
+    "RankId": 7,
+    "Name": "Hell Gladiator",
+    "JapaneseName": "ヘルクラッシャー"
+  },
+  {
+    "MonsterId": 174,
+    "FamilyId": 5,
+    "RankId": 3,
+    "Name": "Hell Niño",
+    "JapaneseName": "ヒートギズモ"
+  },
+  {
+    "MonsterId": 517,
+    "FamilyId": 7,
+    "RankId": 5,
+    "Name": "Hellbound Hair-Raiser",
+    "JapaneseName": "サンダーシャウト"
+  },
+  {
+    "MonsterId": 173,
+    "FamilyId": 7,
+    "RankId": 2,
+    "Name": "Hellbound Horror",
+    "JapaneseName": "やみしばり"
+  },
+  {
+    "MonsterId": 422,
+    "FamilyId": 4,
+    "RankId": 5,
+    "Name": "Hellion",
+    "JapaneseName": "アームライオン"
+  },
+  {
+    "MonsterId": 550,
+    "FamilyId": 7,
+    "RankId": 6,
+    "Name": "Hellspawn",
+    "JapaneseName": "フェイスボール"
+  },
+  {
+    "MonsterId": 489,
+    "FamilyId": 6,
+    "RankId": 6,
+    "Name": "Hocus-Poker",
+    "JapaneseName": "アークマージ"
+  },
+  {
+    "MonsterId": 175,
+    "FamilyId": 6,
+    "RankId": 2,
+    "Name": "Hood",
+    "JapaneseName": "ごろつき"
+  },
+  {
+    "MonsterId": 176,
+    "FamilyId": 6,
+    "RankId": 3,
+    "Name": "Hooper Trooper",
+    "JapaneseName": "サタンフーラー"
+  },
+  {
+    "MonsterId": 177,
+    "FamilyId": 5,
+    "RankId": 2,
+    "Name": "Horriflying Saucers",
+    "JapaneseName": "おばけプレート"
+  },
+  {
+    "MonsterId": 178,
+    "FamilyId": 5,
+    "RankId": 2,
+    "Name": "Hunter Mech",
+    "JapaneseName": "メタルハンター"
+  },
+  {
+    "MonsterId": 603,
+    "FamilyId": 6,
+    "RankId": 6,
+    "Name": "Hyperanemon",
+    "JapaneseName": "ライオネック"
+  },
+  {
+    "MonsterId": 423,
+    "FamilyId": 4,
+    "RankId": 5,
+    "Name": "Hyperboarean",
+    "JapaneseName": "アバランチャー"
+  },
+  {
+    "MonsterId": 471,
+    "FamilyId": 6,
+    "RankId": 4,
+    "Name": "Hypothermion",
+    "JapaneseName": "シャドーサタン"
+  },
+  {
+    "MonsterId": 179,
+    "FamilyId": 6,
+    "RankId": 2,
+    "Name": "Imp",
+    "JapaneseName": "ベビーサタン"
+  },
+  {
+    "MonsterId": 608,
+    "FamilyId": 2,
+    "RankId": 7,
+    "Name": "Infernal Serpent",
+    "JapaneseName": "サラマンダー"
+  },
+  {
+    "MonsterId": 286,
+    "FamilyId": 7,
+    "RankId": 3,
+    "Name": "Iron Maiden",
+    "JapaneseName": "メイデンドール"
+  },
+  {
+    "MonsterId": 374,
+    "FamilyId": 2,
+    "RankId": 6,
+    "Name": "Iron Tortoise",
+    "JapaneseName": "ランドアーマー"
+  },
+  {
+    "MonsterId": 180,
+    "FamilyId": 4,
+    "RankId": 3,
+    "Name": "Jailcat",
+    "JapaneseName": "プリズニャン"
+  },
+  {
+    "MonsterId": 181,
+    "FamilyId": 2,
+    "RankId": 2,
+    "Name": "Jargon",
+    "JapaneseName": "デンデン竜"
+  },
+  {
+    "MonsterId": 543,
+    "FamilyId": 8,
+    "RankId": 8,
+    "Name": "Jasper Unbound",
+    "JapaneseName": "魔軍司令ホメロス"
+  },
+  {
+    "MonsterId": 334,
+    "FamilyId": 1,
+    "RankId": 5,
+    "Name": "Jester Slime",
+    "JapaneseName": "スライムジョーカー"
+  },
+  {
+    "MonsterId": 288,
+    "FamilyId": 6,
+    "RankId": 3,
+    "Name": "Jinkster",
+    "JapaneseName": "ひとつめピエロ"
+  },
+  {
+    "MonsterId": 429,
+    "FamilyId": 4,
+    "RankId": 5,
+    "Name": "Jowler",
+    "JapaneseName": "マムー"
+  },
+  {
+    "MonsterId": 492,
+    "FamilyId": 6,
+    "RankId": 6,
+    "Name": "Jugular joker",
+    "JapaneseName": "キラージャック"
+  },
+  {
+    "MonsterId": 182,
+    "FamilyId": 4,
+    "RankId": 3,
+    "Name": "Jumping Jackal",
+    "JapaneseName": "かくとうパンサー"
+  },
+  {
+    "MonsterId": 183,
+    "FamilyId": 3,
+    "RankId": 1,
+    "Name": "Khalamari Kid",
+    "JapaneseName": "プチアーノン"
+  },
+  {
+    "MonsterId": 184,
+    "FamilyId": 2,
+    "RankId": 1,
+    "Name": "Killer Gila",
+    "JapaneseName": "ポイズンリザード"
+  },
+  {
+    "MonsterId": 185,
+    "FamilyId": 3,
+    "RankId": 1,
+    "Name": "Killerpillar",
+    "JapaneseName": "キャタピラー"
+  },
+  {
+    "MonsterId": 442,
+    "FamilyId": 5,
+    "RankId": 4,
+    "Name": "Killing Machine",
+    "JapaneseName": "キラーマシン"
+  },
+  {
+    "MonsterId": 330,
+    "FamilyId": 1,
+    "RankId": 4,
+    "Name": "King Bubble Slime",
+    "JapaneseName": "バブルキング"
+  },
+  {
+    "MonsterId": 344,
+    "FamilyId": 1,
+    "RankId": 6,
+    "Name": "King Cureslime",
+    "JapaneseName": "スライムベホマズン"
+  },
+  {
+    "MonsterId": 555,
+    "FamilyId": 5,
+    "RankId": 6,
+    "Name": "King Foo Dog",
+    "JapaneseName": "ヘルシーサー"
+  },
+  {
+    "MonsterId": 564,
+    "FamilyId": 2,
+    "RankId": 7,
+    "Name": "King Hydra",
+    "JapaneseName": "キングヒドラ"
+  },
+  {
+    "MonsterId": 340,
+    "FamilyId": 1,
+    "RankId": 6,
+    "Name": "King Jester Slime",
+    "JapaneseName": "キングジョーカー"
+  },
+  {
+    "MonsterId": 186,
+    "FamilyId": 7,
+    "RankId": 2,
+    "Name": "King Kelp",
+    "JapaneseName": "わかめ王子"
+  },
+  {
+    "MonsterId": 345,
+    "FamilyId": 1,
+    "RankId": 6,
+    "Name": "King Slick Slime",
+    "JapaneseName": "タールキング"
+  },
+  {
+    "MonsterId": 324,
+    "FamilyId": 1,
+    "RankId": 4,
+    "Name": "King Slime",
+    "JapaneseName": "キングスライム"
+  },
+  {
+    "MonsterId": 399,
+    "FamilyId": 3,
+    "RankId": 5,
+    "Name": "King Squid",
+    "JapaneseName": "だいおうイカ"
+  },
+  {
+    "MonsterId": 474,
+    "FamilyId": 6,
+    "RankId": 4,
+    "Name": "Kisser",
+    "JapaneseName": "ブチュチュンパ"
+  },
+  {
+    "MonsterId": 499,
+    "FamilyId": 6,
+    "RankId": 7,
+    "Name": "Knight Abhorrent",
+    "JapaneseName": "しにがみのきし"
+  },
+  {
+    "MonsterId": 478,
+    "FamilyId": 6,
+    "RankId": 4,
+    "Name": "Knight Errant",
+    "JapaneseName": "よろいのきし"
+  },
+  {
+    "MonsterId": 187,
+    "FamilyId": 2,
+    "RankId": 1,
+    "Name": "Komodo",
+    "JapaneseName": "コドラ"
+  },
+  {
+    "MonsterId": 535,
+    "FamilyId": 8,
+    "RankId": 7,
+    "Name": "Krystalinda",
+    "JapaneseName": "リーズレット"
+  },
+  {
+    "MonsterId": 188,
+    "FamilyId": 5,
+    "RankId": 1,
+    "Name": "Lampling",
+    "JapaneseName": "ランタンこぞう"
+  },
+  {
+    "MonsterId": 189,
+    "FamilyId": 3,
+    "RankId": 2,
+    "Name": "Leafy Larrikin",
+    "JapaneseName": "もみじこぞう"
+  },
+  {
+    "MonsterId": 190,
+    "FamilyId": 6,
+    "RankId": 1,
+    "Name": "Leery Lout",
+    "JapaneseName": "シールドこぞう"
+  },
+  {
+    "MonsterId": 363,
+    "FamilyId": 2,
+    "RankId": 5,
+    "Name": "Liege Lizard",
+    "JapaneseName": "キングリザード"
+  },
+  {
+    "MonsterId": 498,
+    "FamilyId": 6,
+    "RankId": 7,
+    "Name": "Lieutenant Goreham-Hogg",
+    "JapaneseName": "ゴレオン将軍"
+  },
+  {
+    "MonsterId": 496,
+    "FamilyId": 6,
+    "RankId": 7,
+    "Name": "Lieutenant Goresby-Purrvis",
+    "JapaneseName": "ギュメイ将軍"
+  },
+  {
+    "MonsterId": 497,
+    "FamilyId": 6,
+    "RankId": 7,
+    "Name": "Lieutenant Hootingham-Gore",
+    "JapaneseName": "ゲルニック将軍"
+  },
+  {
+    "MonsterId": 191,
+    "FamilyId": 6,
+    "RankId": 1,
+    "Name": "Lips",
+    "JapaneseName": "リップス"
+  },
+  {
+    "MonsterId": 338,
+    "FamilyId": 1,
+    "RankId": 5,
+    "Name": "Liquid Metal Slime",
+    "JapaneseName": "はぐれメタル"
+  },
+  {
+    "MonsterId": 453,
+    "FamilyId": 5,
+    "RankId": 5,
+    "Name": "Living Statue",
+    "JapaneseName": "うごくせきぞう"
+  },
+  {
+    "MonsterId": 628,
+    "FamilyId": 2,
+    "RankId": 9,
+    "Name": "Lord of the Dragovians",
+    "JapaneseName": "竜神王"
+  },
+  {
+    "MonsterId": 479,
+    "FamilyId": 6,
+    "RankId": 4,
+    "Name": "Low Djinks",
+    "JapaneseName": "ランプのまじん"
+  },
+  {
+    "MonsterId": 192,
+    "FamilyId": 2,
+    "RankId": 3,
+    "Name": "Lumbering Lizard",
+    "JapaneseName": "フォレストドラゴ"
+  },
+  {
+    "MonsterId": 440,
+    "FamilyId": 5,
+    "RankId": 3,
+    "Name": "Luminous Lampling",
+    "JapaneseName": "クリオネオン"
+  },
+  {
+    "MonsterId": 283,
+    "FamilyId": 6,
+    "RankId": 3,
+    "Name": "Lump Shaman",
+    "JapaneseName": "きめんどうし"
+  },
+  {
+    "MonsterId": 193,
+    "FamilyId": 6,
+    "RankId": 1,
+    "Name": "Lump Wizard",
+    "JapaneseName": "ドルイド"
+  },
+  {
+    "MonsterId": 194,
+    "FamilyId": 6,
+    "RankId": 1,
+    "Name": "Lunatick",
+    "JapaneseName": "メーダ"
+  },
+  {
+    "MonsterId": 430,
+    "FamilyId": 4,
+    "RankId": 5,
+    "Name": "Luneyetic",
+    "JapaneseName": "ムーンフェイス"
+  },
+  {
+    "MonsterId": 613,
+    "FamilyId": 4,
+    "RankId": 7,
+    "Name": "Macho Picchu",
+    "JapaneseName": "ネンガル"
+  },
+  {
+    "MonsterId": 195,
+    "FamilyId": 3,
+    "RankId": 1,
+    "Name": "Mad Mollusk",
+    "JapaneseName": "テールイーター"
+  },
+  {
+    "MonsterId": 452,
+    "FamilyId": 5,
+    "RankId": 4,
+    "Name": "Magmalice",
+    "JapaneseName": "ようがんまじん"
+  },
+  {
+    "MonsterId": 536,
+    "FamilyId": 8,
+    "RankId": 8,
+    "Name": "Malroth",
+    "JapaneseName": "シドー"
+  },
+  {
+    "MonsterId": 299,
+    "FamilyId": 2,
+    "RankId": 3,
+    "Name": "Mandrake Major",
+    "JapaneseName": "リザードマン"
+  },
+  {
+    "MonsterId": 370,
+    "FamilyId": 2,
+    "RankId": 6,
+    "Name": "Mandrake Marshal",
+    "JapaneseName": "シュプリンガー"
+  },
+  {
+    "MonsterId": 391,
+    "FamilyId": 3,
+    "RankId": 4,
+    "Name": "Mangleclaw",
+    "JapaneseName": "スノーグリフォン"
+  },
+  {
+    "MonsterId": 425,
+    "FamilyId": 4,
+    "RankId": 5,
+    "Name": "Maniacal Mole",
+    "JapaneseName": "キラーピッケル"
+  },
+  {
+    "MonsterId": 635,
+    "FamilyId": 4,
+    "RankId": 7,
+    "Name": "Marquis De Leon",
+    "JapaneseName": "キングレオ"
+  },
+  {
+    "MonsterId": 622,
+    "FamilyId": 7,
+    "RankId": 5,
+    "Name": "Marrow Escapee",
+    "JapaneseName": "ボーンプリズナー"
+  },
+  {
+    "MonsterId": 57,
+    "FamilyId": 5,
+    "RankId": 7,
+    "Name": "Material Family (A)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 50,
+    "FamilyId": 5,
+    "RankId": 10,
+    "Name": "Material Family (Any)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 56,
+    "FamilyId": 5,
+    "RankId": 6,
+    "Name": "Material Family (B)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 55,
+    "FamilyId": 5,
+    "RankId": 5,
+    "Name": "Material Family (C)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 54,
+    "FamilyId": 5,
+    "RankId": 4,
+    "Name": "Material Family (D)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 53,
+    "FamilyId": 5,
+    "RankId": 3,
+    "Name": "Material Family (E)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 52,
+    "FamilyId": 5,
+    "RankId": 2,
+    "Name": "Material Family (F)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 51,
+    "FamilyId": 5,
+    "RankId": 1,
+    "Name": "Material Family (G)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 58,
+    "FamilyId": 5,
+    "RankId": 8,
+    "Name": "Material Family (S)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 59,
+    "FamilyId": 5,
+    "RankId": 9,
+    "Name": "Material Family (X)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 196,
+    "FamilyId": 5,
+    "RankId": 1,
+    "Name": "Mecha-Mynah",
+    "JapaneseName": "メタッピー"
+  },
+  {
+    "MonsterId": 554,
+    "FamilyId": 2,
+    "RankId": 7,
+    "Name": "Mechan-o'-Wyrm",
+    "JapaneseName": "メカバーン"
+  },
+  {
+    "MonsterId": 197,
+    "FamilyId": 4,
+    "RankId": 3,
+    "Name": "Meowgician",
+    "JapaneseName": "ねこまどう"
+  },
+  {
+    "MonsterId": 198,
+    "FamilyId": 6,
+    "RankId": 2,
+    "Name": "Merman",
+    "JapaneseName": "マーマン"
+  },
+  {
+    "MonsterId": 360,
+    "FamilyId": 2,
+    "RankId": 4,
+    "Name": "Metal Dragon",
+    "JapaneseName": "メタルドラゴン"
+  },
+  {
+    "MonsterId": 348,
+    "FamilyId": 1,
+    "RankId": 6,
+    "Name": "Metal King Slime",
+    "JapaneseName": "メタルキング"
+  },
+  {
+    "MonsterId": 411,
+    "FamilyId": 3,
+    "RankId": 7,
+    "Name": "Metal Scorpion",
+    "JapaneseName": "メタルスコーピオン"
+  },
+  {
+    "MonsterId": 323,
+    "FamilyId": 1,
+    "RankId": 3,
+    "Name": "Metal Slime",
+    "JapaneseName": "メタルスライム"
+  },
+  {
+    "MonsterId": 339,
+    "FamilyId": 1,
+    "RankId": 5,
+    "Name": "Metal Slime Knight",
+    "JapaneseName": "メタルライダー"
+  },
+  {
+    "MonsterId": 302,
+    "FamilyId": 5,
+    "RankId": 5,
+    "Name": "Mimic",
+    "JapaneseName": "ミミック"
+  },
+  {
+    "MonsterId": 548,
+    "FamilyId": 5,
+    "RankId": 4,
+    "Name": "Mimic with Cheese",
+    "JapaneseName": "バーガーミミック"
+  },
+  {
+    "MonsterId": 477,
+    "FamilyId": 6,
+    "RankId": 4,
+    "Name": "Minidemon",
+    "JapaneseName": "ミニデーモン"
+  },
+  {
+    "MonsterId": 199,
+    "FamilyId": 4,
+    "RankId": 1,
+    "Name": "Mischievous Mole",
+    "JapaneseName": "いたずらもぐら"
+  },
+  {
+    "MonsterId": 553,
+    "FamilyId": 4,
+    "RankId": 4,
+    "Name": "Missing Lynx",
+    "JapaneseName": "ウイングタイガー"
+  },
+  {
+    "MonsterId": 200,
+    "FamilyId": 3,
+    "RankId": 2,
+    "Name": "Mitey Oak",
+    "JapaneseName": "どんぐりベビー"
+  },
+  {
+    "MonsterId": 551,
+    "FamilyId": 4,
+    "RankId": 6,
+    "Name": "Mogus",
+    "JapaneseName": "ダークペルシャ"
+  },
+  {
+    "MonsterId": 434,
+    "FamilyId": 4,
+    "RankId": 6,
+    "Name": "Mohawker",
+    "JapaneseName": "モヒカント"
+  },
+  {
+    "MonsterId": 201,
+    "FamilyId": 7,
+    "RankId": 2,
+    "Name": "Monolog",
+    "JapaneseName": "ふゆうじゅ"
+  },
+  {
+    "MonsterId": 549,
+    "FamilyId": 6,
+    "RankId": 5,
+    "Name": "Moosifer",
+    "JapaneseName": "アンクルホーン"
+  },
+  {
+    "MonsterId": 539,
+    "FamilyId": 8,
+    "RankId": 8,
+    "Name": "Mordegon, Lord of Shadows",
+    "JapaneseName": "大魔王ウルノーガ"
+  },
+  {
+    "MonsterId": 284,
+    "FamilyId": 7,
+    "RankId": 3,
+    "Name": "Morphean Mushroom",
+    "JapaneseName": "マタンゴ"
+  },
+  {
+    "MonsterId": 541,
+    "FamilyId": 8,
+    "RankId": 8,
+    "Name": "Mortamor",
+    "JapaneseName": "デスタムーア"
+  },
+  {
+    "MonsterId": 388,
+    "FamilyId": 3,
+    "RankId": 4,
+    "Name": "Mortoad",
+    "JapaneseName": "ガマキャノン"
+  },
+  {
+    "MonsterId": 641,
+    "FamilyId": 1,
+    "RankId": 5,
+    "Name": "Mottle She-Slime",
+    "JapaneseName": "ぶちスライムベス"
+  },
+  {
+    "MonsterId": 202,
+    "FamilyId": 1,
+    "RankId": 2,
+    "Name": "Mottle Slime",
+    "JapaneseName": "ぶちスライム"
+  },
+  {
+    "MonsterId": 275,
+    "FamilyId": 1,
+    "RankId": 3,
+    "Name": "Mouldy Slime",
+    "JapaneseName": "ぬかどこスライム"
+  },
+  {
+    "MonsterId": 203,
+    "FamilyId": 4,
+    "RankId": 1,
+    "Name": "Mouseflap",
+    "JapaneseName": "みみとびねずみ"
+  },
+  {
+    "MonsterId": 205,
+    "FamilyId": 5,
+    "RankId": 1,
+    "Name": "Mud Mannequin",
+    "JapaneseName": "どろにんぎょう"
+  },
+  {
+    "MonsterId": 204,
+    "FamilyId": 7,
+    "RankId": 2,
+    "Name": "Muddy Hand",
+    "JapaneseName": "マドハンド"
+  },
+  {
+    "MonsterId": 206,
+    "FamilyId": 5,
+    "RankId": 2,
+    "Name": "Mudraker",
+    "JapaneseName": "ドロヌーバ"
+  },
+  {
+    "MonsterId": 207,
+    "FamilyId": 7,
+    "RankId": 2,
+    "Name": "Mummy Boy",
+    "JapaneseName": "ミイラおとこ"
+  },
+  {
+    "MonsterId": 544,
+    "FamilyId": 8,
+    "RankId": 8,
+    "Name": "Murdaw",
+    "JapaneseName": "ムドー"
+  },
+  {
+    "MonsterId": 208,
+    "FamilyId": 4,
+    "RankId": 2,
+    "Name": "Napir",
+    "JapaneseName": "ゆめにゅうどう"
+  },
+  {
+    "MonsterId": 209,
+    "FamilyId": 2,
+    "RankId": 1,
+    "Name": "Nardragon",
+    "JapaneseName": "いっかく竜"
+  },
+  {
+    "MonsterId": 37,
+    "FamilyId": 3,
+    "RankId": 7,
+    "Name": "Nature Family (A)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 30,
+    "FamilyId": 3,
+    "RankId": 10,
+    "Name": "Nature Family (Any)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 36,
+    "FamilyId": 3,
+    "RankId": 6,
+    "Name": "Nature Family (B)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 35,
+    "FamilyId": 3,
+    "RankId": 5,
+    "Name": "Nature Family (C)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 34,
+    "FamilyId": 3,
+    "RankId": 4,
+    "Name": "Nature Family (D)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 33,
+    "FamilyId": 3,
+    "RankId": 3,
+    "Name": "Nature Family (E)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 32,
+    "FamilyId": 3,
+    "RankId": 2,
+    "Name": "Nature Family (F)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 31,
+    "FamilyId": 3,
+    "RankId": 1,
+    "Name": "Nature Family (G)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 38,
+    "FamilyId": 3,
+    "RankId": 8,
+    "Name": "Nature Family (S)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 39,
+    "FamilyId": 3,
+    "RankId": 9,
+    "Name": "Nature Family (X)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 597,
+    "FamilyId": 5,
+    "RankId": 6,
+    "Name": "Ne'er-Do-Well",
+    "JapaneseName": "デスホール"
+  },
+  {
+    "MonsterId": 545,
+    "FamilyId": 8,
+    "RankId": 8,
+    "Name": "Nelgel the Netherfiend",
+    "JapaneseName": "冥獣王ネルゲル"
+  },
+  {
+    "MonsterId": 588,
+    "FamilyId": 6,
+    "RankId": 6,
+    "Name": "Night Clubber",
+    "JapaneseName": "おにこんぼう"
+  },
+  {
+    "MonsterId": 574,
+    "FamilyId": 4,
+    "RankId": 4,
+    "Name": "Night Emperor",
+    "JapaneseName": "よるのていおう"
+  },
+  {
+    "MonsterId": 612,
+    "FamilyId": 7,
+    "RankId": 7,
+    "Name": "Night Knight",
+    "JapaneseName": "ナイトキング"
+  },
+  {
+    "MonsterId": 510,
+    "FamilyId": 7,
+    "RankId": 4,
+    "Name": "Night Sneaker",
+    "JapaneseName": "ナイトウォーカー"
+  },
+  {
+    "MonsterId": 586,
+    "FamilyId": 8,
+    "RankId": 8,
+    "Name": "Nimzo",
+    "JapaneseName": "ミルドラース"
+  },
+  {
+    "MonsterId": 366,
+    "FamilyId": 2,
+    "RankId": 5,
+    "Name": "Noble Gasbagon",
+    "JapaneseName": "バルンバ"
+  },
+  {
+    "MonsterId": 636,
+    "FamilyId": 8,
+    "RankId": 9,
+    "Name": "Nokturnus",
+    "JapaneseName": "ダークドレアム"
+  },
+  {
+    "MonsterId": 426,
+    "FamilyId": 4,
+    "RankId": 5,
+    "Name": "Notso Macho",
+    "JapaneseName": "ダンビラムーチョ"
+  },
+  {
+    "MonsterId": 210,
+    "FamilyId": 3,
+    "RankId": 3,
+    "Name": "Octopot",
+    "JapaneseName": "タコメット"
+  },
+  {
+    "MonsterId": 211,
+    "FamilyId": 3,
+    "RankId": 2,
+    "Name": "Odd Cob",
+    "JapaneseName": "キラーコーン"
+  },
+  {
+    "MonsterId": 294,
+    "FamilyId": 6,
+    "RankId": 3,
+    "Name": "Ogre",
+    "JapaneseName": "オーガー"
+  },
+  {
+    "MonsterId": 525,
+    "FamilyId": 7,
+    "RankId": 6,
+    "Name": "One-Man Army",
+    "JapaneseName": "ソードイド"
+  },
+  {
+    "MonsterId": 212,
+    "FamilyId": 1,
+    "RankId": 2,
+    "Name": "Onion Slime",
+    "JapaneseName": "たまねぎスライム"
+  },
+  {
+    "MonsterId": 213,
+    "FamilyId": 4,
+    "RankId": 2,
+    "Name": "Orc",
+    "JapaneseName": "オーク"
+  },
+  {
+    "MonsterId": 424,
+    "FamilyId": 4,
+    "RankId": 5,
+    "Name": "Orc King",
+    "JapaneseName": "オークキング"
+  },
+  {
+    "MonsterId": 642,
+    "FamilyId": 8,
+    "RankId": 8,
+    "Name": "Orgodemir",
+    "JapaneseName": "オルゴデミーラ"
+  },
+  {
+    "MonsterId": 214,
+    "FamilyId": 3,
+    "RankId": 1,
+    "Name": "Ornery Onion",
+    "JapaneseName": "オニオーン"
+  },
+  {
+    "MonsterId": 559,
+    "FamilyId": 2,
+    "RankId": 6,
+    "Name": "Orochi",
+    "JapaneseName": "やまたのおろち"
+  },
+  {
+    "MonsterId": 467,
+    "FamilyId": 5,
+    "RankId": 7,
+    "Name": "Overkilling Machine",
+    "JapaneseName": "キラーマシン2"
+  },
+  {
+    "MonsterId": 604,
+    "FamilyId": 3,
+    "RankId": 5,
+    "Name": "Overtoad",
+    "JapaneseName": "だいおうガマ"
+  },
+  {
+    "MonsterId": 392,
+    "FamilyId": 3,
+    "RankId": 4,
+    "Name": "Palooka Prawn",
+    "JapaneseName": "ダンジョンえび"
+  },
+  {
+    "MonsterId": 215,
+    "FamilyId": 4,
+    "RankId": 1,
+    "Name": "Pan Piper",
+    "JapaneseName": "コサックシープ"
+  },
+  {
+    "MonsterId": 615,
+    "FamilyId": 5,
+    "RankId": 7,
+    "Name": "Pandora's Box",
+    "JapaneseName": "パンドラボックス"
+  },
+  {
+    "MonsterId": 445,
+    "FamilyId": 5,
+    "RankId": 4,
+    "Name": "Paralyslicer",
+    "JapaneseName": "しびれだんびら"
+  },
+  {
+    "MonsterId": 318,
+    "FamilyId": 3,
+    "RankId": 3,
+    "Name": "Parched Peckerel",
+    "JapaneseName": "デザートランナー"
+  },
+  {
+    "MonsterId": 333,
+    "FamilyId": 1,
+    "RankId": 5,
+    "Name": "Pasty Pastry",
+    "JapaneseName": "コロネホワイト"
+  },
+  {
+    "MonsterId": 501,
+    "FamilyId": 6,
+    "RankId": 7,
+    "Name": "Pazuzu",
+    "JapaneseName": "バズズ"
+  },
+  {
+    "MonsterId": 287,
+    "FamilyId": 6,
+    "RankId": 3,
+    "Name": "Peeper",
+    "JapaneseName": "スペクテット"
+  },
+  {
+    "MonsterId": 315,
+    "FamilyId": 7,
+    "RankId": 3,
+    "Name": "Phantom Fencer",
+    "JapaneseName": "ぼうれい剣士"
+  },
+  {
+    "MonsterId": 519,
+    "FamilyId": 7,
+    "RankId": 5,
+    "Name": "Phantom Swordsman",
+    "JapaneseName": "ソードファントム"
+  },
+  {
+    "MonsterId": 410,
+    "FamilyId": 3,
+    "RankId": 7,
+    "Name": "Phoenix",
+    "JapaneseName": "ほうおう"
+  },
+  {
+    "MonsterId": 216,
+    "FamilyId": 6,
+    "RankId": 2,
+    "Name": "Pickayune",
+    "JapaneseName": "おにこぞう"
+  },
+  {
+    "MonsterId": 217,
+    "FamilyId": 6,
+    "RankId": 1,
+    "Name": "Picksy",
+    "JapaneseName": "ピクシー"
+  },
+  {
+    "MonsterId": 218,
+    "FamilyId": 4,
+    "RankId": 1,
+    "Name": "Platypunk",
+    "JapaneseName": "ももんじゃ"
+  },
+  {
+    "MonsterId": 219,
+    "FamilyId": 5,
+    "RankId": 2,
+    "Name": "Pocus Poppet",
+    "JapaneseName": "ミステリドール"
+  },
+  {
+    "MonsterId": 220,
+    "FamilyId": 3,
+    "RankId": 2,
+    "Name": "Pogoin' Penguin",
+    "JapaneseName": "タップペンギー"
+  },
+  {
+    "MonsterId": 221,
+    "FamilyId": 4,
+    "RankId": 2,
+    "Name": "Powie Yowie",
+    "JapaneseName": "イエティ"
+  },
+  {
+    "MonsterId": 298,
+    "FamilyId": 5,
+    "RankId": 3,
+    "Name": "Prancing Pillar",
+    "JapaneseName": "エンタシスマン"
+  },
+  {
+    "MonsterId": 413,
+    "FamilyId": 3,
+    "RankId": 8,
+    "Name": "Prism peacock",
+    "JapaneseName": "にじくじゃく"
+  },
+  {
+    "MonsterId": 565,
+    "FamilyId": 6,
+    "RankId": 7,
+    "Name": "Pruslas",
+    "JapaneseName": "ギガデーモン"
+  },
+  {
+    "MonsterId": 633,
+    "FamilyId": 8,
+    "RankId": 8,
+    "Name": "Psaro the Manslayer",
+    "JapaneseName": "デスピサロ"
+  },
+  {
+    "MonsterId": 473,
+    "FamilyId": 6,
+    "RankId": 4,
+    "Name": "Psaro's Pawn",
+    "JapaneseName": "ピサロのてさき"
+  },
+  {
+    "MonsterId": 222,
+    "FamilyId": 2,
+    "RankId": 1,
+    "Name": "Pteranodon",
+    "JapaneseName": "プテラノドン"
+  },
+  {
+    "MonsterId": 305,
+    "FamilyId": 3,
+    "RankId": 3,
+    "Name": "Puffpoise",
+    "JapaneseName": "イルカちょうちん"
+  },
+  {
+    "MonsterId": 436,
+    "FamilyId": 4,
+    "RankId": 7,
+    "Name": "Purrgatroyd",
+    "JapaneseName": "キャットリベリオ"
+  },
+  {
+    "MonsterId": 223,
+    "FamilyId": 7,
+    "RankId": 1,
+    "Name": "Putrefido",
+    "JapaneseName": "アニマルゾンビ"
+  },
+  {
+    "MonsterId": 341,
+    "FamilyId": 1,
+    "RankId": 6,
+    "Name": "Queen Slime",
+    "JapaneseName": "クイーンスライム"
+  },
+  {
+    "MonsterId": 500,
+    "FamilyId": 6,
+    "RankId": 7,
+    "Name": "Rabid Rector",
+    "JapaneseName": "スカイシーカー"
+  },
+  {
+    "MonsterId": 629,
+    "FamilyId": 8,
+    "RankId": 9,
+    "Name": "Ramia",
+    "JapaneseName": "ラーミア"
+  },
+  {
+    "MonsterId": 224,
+    "FamilyId": 2,
+    "RankId": 2,
+    "Name": "Raptile",
+    "JapaneseName": "スマイルリザード"
+  },
+  {
+    "MonsterId": 561,
+    "FamilyId": 2,
+    "RankId": 7,
+    "Name": "Rashaverak",
+    "JapaneseName": "アンドレアル"
+  },
+  {
+    "MonsterId": 225,
+    "FamilyId": 4,
+    "RankId": 3,
+    "Name": "Ratatattack",
+    "JapaneseName": "エビルハムスター"
+  },
+  {
+    "MonsterId": 538,
+    "FamilyId": 8,
+    "RankId": 8,
+    "Name": "Razerburn",
+    "JapaneseName": "守護者ラズバーン"
+  },
+  {
+    "MonsterId": 226,
+    "FamilyId": 7,
+    "RankId": 2,
+    "Name": "Restless Armour",
+    "JapaneseName": "さまようよろい"
+  },
+  {
+    "MonsterId": 618,
+    "FamilyId": 8,
+    "RankId": 8,
+    "Name": "Rhapthorne",
+    "JapaneseName": "暗黒神ラプソーン"
+  },
+  {
+    "MonsterId": 560,
+    "FamilyId": 4,
+    "RankId": 4,
+    "Name": "Rhinoceraxe",
+    "JapaneseName": "ライノソルジャー"
+  },
+  {
+    "MonsterId": 416,
+    "FamilyId": 4,
+    "RankId": 4,
+    "Name": "Ripped Rabbit",
+    "JapaneseName": "あらくれチャッピー"
+  },
+  {
+    "MonsterId": 227,
+    "FamilyId": 4,
+    "RankId": 2,
+    "Name": "Robber Rabbit",
+    "JapaneseName": "ぬすっとウサギ"
+  },
+  {
+    "MonsterId": 533,
+    "FamilyId": 8,
+    "RankId": 5,
+    "Name": "Robin 'ood",
+    "JapaneseName": "カンダタ"
+  },
+  {
+    "MonsterId": 309,
+    "FamilyId": 5,
+    "RankId": 3,
+    "Name": "Rockbomb",
+    "JapaneseName": "ばくだんいわ"
+  },
+  {
+    "MonsterId": 385,
+    "FamilyId": 3,
+    "RankId": 4,
+    "Name": "Rockin' Rockhopper",
+    "JapaneseName": "岩とびあくま"
+  },
+  {
+    "MonsterId": 402,
+    "FamilyId": 3,
+    "RankId": 5,
+    "Name": "Roistering Rooster",
+    "JapaneseName": "レッドシャモ"
+  },
+  {
+    "MonsterId": 438,
+    "FamilyId": 4,
+    "RankId": 7,
+    "Name": "Ronin Raccoon",
+    "JapaneseName": "心眼たぬき"
+  },
+  {
+    "MonsterId": 558,
+    "FamilyId": 6,
+    "RankId": 5,
+    "Name": "Roseguardin",
+    "JapaneseName": "ピサロナイト"
+  },
+  {
+    "MonsterId": 291,
+    "FamilyId": 4,
+    "RankId": 3,
+    "Name": "Rotten Cotton",
+    "JapaneseName": "モコモコじゅう"
+  },
+  {
+    "MonsterId": 375,
+    "FamilyId": 2,
+    "RankId": 7,
+    "Name": "Royal Reptile",
+    "JapaneseName": "カイザードラゴン"
+  },
+  {
+    "MonsterId": 228,
+    "FamilyId": 1,
+    "RankId": 3,
+    "Name": "Rubble Slime",
+    "JapaneseName": "ストーンスライム"
+  },
+  {
+    "MonsterId": 448,
+    "FamilyId": 5,
+    "RankId": 4,
+    "Name": "Saccharine Sacksquatch",
+    "JapaneseName": "ハニーイーター"
+  },
+  {
+    "MonsterId": 229,
+    "FamilyId": 5,
+    "RankId": 1,
+    "Name": "Sacksquatch",
+    "JapaneseName": "ドロザラー"
+  },
+  {
+    "MonsterId": 575,
+    "FamilyId": 2,
+    "RankId": 4,
+    "Name": "Saltwater Stallion",
+    "JapaneseName": "ドラゴンポップ"
+  },
+  {
+    "MonsterId": 230,
+    "FamilyId": 1,
+    "RankId": 1,
+    "Name": "Scallop Slime",
+    "JapaneseName": "パールスライム"
+  },
+  {
+    "MonsterId": 231,
+    "FamilyId": 7,
+    "RankId": 2,
+    "Name": "Scarfish",
+    "JapaneseName": "おばけヒトデ"
+  },
+  {
+    "MonsterId": 232,
+    "FamilyId": 3,
+    "RankId": 2,
+    "Name": "Scissor Beatle",
+    "JapaneseName": "はさみくわがた"
+  },
+  {
+    "MonsterId": 233,
+    "FamilyId": 3,
+    "RankId": 3,
+    "Name": "Scornet",
+    "JapaneseName": "キラービー"
+  },
+  {
+    "MonsterId": 401,
+    "FamilyId": 3,
+    "RankId": 5,
+    "Name": "Scourgette",
+    "JapaneseName": "ブラックベジター"
+  },
+  {
+    "MonsterId": 547,
+    "FamilyId": 8,
+    "RankId": 8,
+    "Name": "Scruffy",
+    "JapaneseName": "ワルぼう"
+  },
+  {
+    "MonsterId": 475,
+    "FamilyId": 6,
+    "RankId": 4,
+    "Name": "Sculptrice",
+    "JapaneseName": "ヘルビースト"
+  },
+  {
+    "MonsterId": 327,
+    "FamilyId": 1,
+    "RankId": 4,
+    "Name": "Scuttle Slime",
+    "JapaneseName": "石炭つむり"
+  },
+  {
+    "MonsterId": 271,
+    "FamilyId": 6,
+    "RankId": 2,
+    "Name": "See Urchin",
+    "JapaneseName": "シーメーダ"
+  },
+  {
+    "MonsterId": 518,
+    "FamilyId": 7,
+    "RankId": 5,
+    "Name": "Sekerleton",
+    "JapaneseName": "しにがみ"
+  },
+  {
+    "MonsterId": 616,
+    "FamilyId": 2,
+    "RankId": 7,
+    "Name": "Serpent of the Scales",
+    "JapaneseName": "ひかりの番人"
+  },
+  {
+    "MonsterId": 234,
+    "FamilyId": 7,
+    "RankId": 2,
+    "Name": "Shadow",
+    "JapaneseName": "シャドー"
+  },
+  {
+    "MonsterId": 335,
+    "FamilyId": 1,
+    "RankId": 5,
+    "Name": "Shadow Slime",
+    "JapaneseName": "スライムダーク"
+  },
+  {
+    "MonsterId": 235,
+    "FamilyId": 4,
+    "RankId": 1,
+    "Name": "Sham Hatwitch",
+    "JapaneseName": "ビッグハット"
+  },
+  {
+    "MonsterId": 236,
+    "FamilyId": 1,
+    "RankId": 1,
+    "Name": "Shell Slime",
+    "JapaneseName": "スライムつむり"
+  },
+  {
+    "MonsterId": 105,
+    "FamilyId": 1,
+    "RankId": 2,
+    "Name": "She-Slime",
+    "JapaneseName": "スライムベス"
+  },
+  {
+    "MonsterId": 447,
+    "FamilyId": 5,
+    "RankId": 4,
+    "Name": "Shivery Shrubbery",
+    "JapaneseName": "デビルスノー"
+  },
+  {
+    "MonsterId": 343,
+    "FamilyId": 1,
+    "RankId": 6,
+    "Name": "Shogum",
+    "JapaneseName": "スライムジェネラル"
+  },
+  {
+    "MonsterId": 472,
+    "FamilyId": 6,
+    "RankId": 4,
+    "Name": "Silvapithecus",
+    "JapaneseName": "シルバーデビル"
+  },
+  {
+    "MonsterId": 377,
+    "FamilyId": 2,
+    "RankId": 7,
+    "Name": "Silver Serpent",
+    "JapaneseName": "シルバーナーガ"
+  },
+  {
+    "MonsterId": 481,
+    "FamilyId": 6,
+    "RankId": 5,
+    "Name": "Sintaur",
+    "JapaneseName": "ずしおうまる"
+  },
+  {
+    "MonsterId": 415,
+    "FamilyId": 7,
+    "RankId": 6,
+    "Name": "Skelegon",
+    "JapaneseName": "スカルゴン"
+  },
+  {
+    "MonsterId": 238,
+    "FamilyId": 7,
+    "RankId": 1,
+    "Name": "Skeleton",
+    "JapaneseName": "がいこつ"
+  },
+  {
+    "MonsterId": 296,
+    "FamilyId": 7,
+    "RankId": 3,
+    "Name": "Skeleton Soldier",
+    "JapaneseName": "しりょうのきし"
+  },
+  {
+    "MonsterId": 508,
+    "FamilyId": 7,
+    "RankId": 4,
+    "Name": "Skeleton Swordsman",
+    "JapaneseName": "がいこつけんし"
+  },
+  {
+    "MonsterId": 520,
+    "FamilyId": 7,
+    "RankId": 5,
+    "Name": "Skellyfish",
+    "JapaneseName": "どくろクラゲ"
+  },
+  {
+    "MonsterId": 273,
+    "FamilyId": 7,
+    "RankId": 1,
+    "Name": "Skipper",
+    "JapaneseName": "スキッパー"
+  },
+  {
+    "MonsterId": 239,
+    "FamilyId": 7,
+    "RankId": 2,
+    "Name": "Skullrider",
+    "JapaneseName": "スカルライダー"
+  },
+  {
+    "MonsterId": 240,
+    "FamilyId": 1,
+    "RankId": 3,
+    "Name": "Slick Slime",
+    "JapaneseName": "スライムタール"
+  },
+  {
+    "MonsterId": 101,
+    "FamilyId": 1,
+    "RankId": 1,
+    "Name": "Slime",
+    "JapaneseName": "スライム"
+  },
+  {
+    "MonsterId": 17,
+    "FamilyId": 1,
+    "RankId": 7,
+    "Name": "Slime Family (A)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 10,
+    "FamilyId": 1,
+    "RankId": 10,
+    "Name": "Slime Family (Any)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 16,
+    "FamilyId": 1,
+    "RankId": 6,
+    "Name": "Slime Family (B)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 15,
+    "FamilyId": 1,
+    "RankId": 5,
+    "Name": "Slime Family (C)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 14,
+    "FamilyId": 1,
+    "RankId": 4,
+    "Name": "Slime Family (D)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 13,
+    "FamilyId": 1,
+    "RankId": 3,
+    "Name": "Slime Family (E)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 12,
+    "FamilyId": 1,
+    "RankId": 2,
+    "Name": "Slime Family (F)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 11,
+    "FamilyId": 1,
+    "RankId": 1,
+    "Name": "Slime Family (G)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 18,
+    "FamilyId": 1,
+    "RankId": 8,
+    "Name": "Slime Family (S)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 19,
+    "FamilyId": 1,
+    "RankId": 9,
+    "Name": "Slime Family (X)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 241,
+    "FamilyId": 1,
+    "RankId": 2,
+    "Name": "Slime Knight",
+    "JapaneseName": "スライムナイト"
+  },
+  {
+    "MonsterId": 346,
+    "FamilyId": 1,
+    "RankId": 6,
+    "Name": "Slime Snack",
+    "JapaneseName": "だんごスライム"
+  },
+  {
+    "MonsterId": 243,
+    "FamilyId": 1,
+    "RankId": 2,
+    "Name": "Slime Stack",
+    "JapaneseName": "スライムタワー"
+  },
+  {
+    "MonsterId": 578,
+    "FamilyId": 1,
+    "RankId": 4,
+    "Name": "Slimecicle",
+    "JapaneseName": "つららスライム"
+  },
+  {
+    "MonsterId": 242,
+    "FamilyId": 1,
+    "RankId": 1,
+    "Name": "Slimeshroom",
+    "JapaneseName": "マッシュスライム"
+  },
+  {
+    "MonsterId": 350,
+    "FamilyId": 1,
+    "RankId": 7,
+    "Name": "Slionheart",
+    "JapaneseName": "ゴッドライダー"
+  },
+  {
+    "MonsterId": 244,
+    "FamilyId": 2,
+    "RankId": 1,
+    "Name": "Small Fry",
+    "JapaneseName": "ドラゴンキッズ"
+  },
+  {
+    "MonsterId": 245,
+    "FamilyId": 1,
+    "RankId": 2,
+    "Name": "Snail Slime",
+    "JapaneseName": "スライムカルゴ"
+  },
+  {
+    "MonsterId": 414,
+    "FamilyId": 3,
+    "RankId": 8,
+    "Name": "Snipevine",
+    "JapaneseName": "ロイヤルブルーム"
+  },
+  {
+    "MonsterId": 408,
+    "FamilyId": 3,
+    "RankId": 6,
+    "Name": "Snowbird",
+    "JapaneseName": "ホークブリザード"
+  },
+  {
+    "MonsterId": 465,
+    "FamilyId": 5,
+    "RankId": 6,
+    "Name": "Snowgre",
+    "JapaneseName": "スノーホムンクルス"
+  },
+  {
+    "MonsterId": 246,
+    "FamilyId": 1,
+    "RankId": 2,
+    "Name": "Snowmangler",
+    "JapaneseName": "スノーム"
+  },
+  {
+    "MonsterId": 247,
+    "FamilyId": 7,
+    "RankId": 1,
+    "Name": "Soft Serve Spook",
+    "JapaneseName": "ホイップゴースト"
+  },
+  {
+    "MonsterId": 507,
+    "FamilyId": 7,
+    "RankId": 4,
+    "Name": "Soulspawn",
+    "JapaneseName": "エビルスピリッツ"
+  },
+  {
+    "MonsterId": 581,
+    "FamilyId": 7,
+    "RankId": 5,
+    "Name": "Soy Soldier",
+    "JapaneseName": "ソイソルジャー"
+  },
+  {
+    "MonsterId": 279,
+    "FamilyId": 4,
+    "RankId": 3,
+    "Name": "Spiked Hare",
+    "JapaneseName": "アルミラージ"
+  },
+  {
+    "MonsterId": 386,
+    "FamilyId": 3,
+    "RankId": 4,
+    "Name": "Spinchilla",
+    "JapaneseName": "うずしおキング"
+  },
+  {
+    "MonsterId": 248,
+    "FamilyId": 1,
+    "RankId": 3,
+    "Name": "Spiny Slime",
+    "JapaneseName": "スピンスライム"
+  },
+  {
+    "MonsterId": 249,
+    "FamilyId": 5,
+    "RankId": 1,
+    "Name": "Spitnik",
+    "JapaneseName": "シャイニング"
+  },
+  {
+    "MonsterId": 250,
+    "FamilyId": 2,
+    "RankId": 2,
+    "Name": "Spitzfire",
+    "JapaneseName": "ワイバーンドッグ"
+  },
+  {
+    "MonsterId": 292,
+    "FamilyId": 4,
+    "RankId": 3,
+    "Name": "Splatypunk",
+    "JapaneseName": "ダックスビル"
+  },
+  {
+    "MonsterId": 322,
+    "FamilyId": 1,
+    "RankId": 3,
+    "Name": "Sprite Bulb",
+    "JapaneseName": "アラウネ"
+  },
+  {
+    "MonsterId": 251,
+    "FamilyId": 2,
+    "RankId": 3,
+    "Name": "Stabosaur",
+    "JapaneseName": "ソードドラゴン"
+  },
+  {
+    "MonsterId": 252,
+    "FamilyId": 3,
+    "RankId": 1,
+    "Name": "Stark Raven",
+    "JapaneseName": "おおがらす"
+  },
+  {
+    "MonsterId": 446,
+    "FamilyId": 5,
+    "RankId": 4,
+    "Name": "Stone Golem",
+    "JapaneseName": "ストーンマン"
+  },
+  {
+    "MonsterId": 493,
+    "FamilyId": 6,
+    "RankId": 6,
+    "Name": "Stout Troll",
+    "JapaneseName": "トロルボンバー"
+  },
+  {
+    "MonsterId": 253,
+    "FamilyId": 5,
+    "RankId": 1,
+    "Name": "String Fella",
+    "JapaneseName": "くみひもこぞう"
+  },
+  {
+    "MonsterId": 254,
+    "FamilyId": 7,
+    "RankId": 1,
+    "Name": "Stump Chump",
+    "JapaneseName": "きりかぶおばけ"
+  },
+  {
+    "MonsterId": 256,
+    "FamilyId": 6,
+    "RankId": 2,
+    "Name": "Succubat",
+    "JapaneseName": "くらやみハーピー"
+  },
+  {
+    "MonsterId": 257,
+    "FamilyId": 3,
+    "RankId": 2,
+    "Name": "Suckling Ocker",
+    "JapaneseName": "オクトリーチ"
+  },
+  {
+    "MonsterId": 469,
+    "FamilyId": 6,
+    "RankId": 3,
+    "Name": "Sugar Baddie",
+    "JapaneseName": "スイーツまじん"
+  },
+  {
+    "MonsterId": 304,
+    "FamilyId": 1,
+    "RankId": 3,
+    "Name": "Sugarstar Slime",
+    "JapaneseName": "こんぺいとう"
+  },
+  {
+    "MonsterId": 258,
+    "FamilyId": 4,
+    "RankId": 2,
+    "Name": "Sunset Sultan",
+    "JapaneseName": "ひぐれバット"
+  },
+  {
+    "MonsterId": 352,
+    "FamilyId": 1,
+    "RankId": 7,
+    "Name": "Superior Slime",
+    "JapaneseName": "マスタースライム"
+  },
+  {
+    "MonsterId": 418,
+    "FamilyId": 4,
+    "RankId": 4,
+    "Name": "Sweaty Yeti",
+    "JapaneseName": "デザートゴースト"
+  },
+  {
+    "MonsterId": 483,
+    "FamilyId": 6,
+    "RankId": 5,
+    "Name": "Swingre",
+    "JapaneseName": "てっきゅうまじん"
+  },
+  {
+    "MonsterId": 435,
+    "FamilyId": 4,
+    "RankId": 6,
+    "Name": "Tantamount",
+    "JapaneseName": "れんごく天馬"
+  },
+  {
+    "MonsterId": 396,
+    "FamilyId": 3,
+    "RankId": 5,
+    "Name": "Tartarus Eagle",
+    "JapaneseName": "アンズー"
+  },
+  {
+    "MonsterId": 259,
+    "FamilyId": 6,
+    "RankId": 1,
+    "Name": "Teeny Sanguini",
+    "JapaneseName": "モーモン"
+  },
+  {
+    "MonsterId": 607,
+    "FamilyId": 3,
+    "RankId": 7,
+    "Name": "Tentacular",
+    "JapaneseName": "クラーゴン"
+  },
+  {
+    "MonsterId": 630,
+    "FamilyId": 8,
+    "RankId": 9,
+    "Name": "The Almighty",
+    "JapaneseName": "神さま"
+  },
+  {
+    "MonsterId": 504,
+    "FamilyId": 6,
+    "RankId": 8,
+    "Name": "The Darkling",
+    "JapaneseName": "邪神の子"
+  },
+  {
+    "MonsterId": 379,
+    "FamilyId": 2,
+    "RankId": 7,
+    "Name": "The Dragonlord",
+    "JapaneseName": "りゅうおう"
+  },
+  {
+    "MonsterId": 482,
+    "FamilyId": 6,
+    "RankId": 5,
+    "Name": "The Time Being",
+    "JapaneseName": "タイムマスター"
+  },
+  {
+    "MonsterId": 609,
+    "FamilyId": 5,
+    "RankId": 7,
+    "Name": "The Trauminator",
+    "JapaneseName": "Sキラーマシン"
+  },
+  {
+    "MonsterId": 598,
+    "FamilyId": 4,
+    "RankId": 6,
+    "Name": "Tigergram",
+    "JapaneseName": "とうだいタイガー"
+  },
+  {
+    "MonsterId": 260,
+    "FamilyId": 3,
+    "RankId": 1,
+    "Name": "Toady",
+    "JapaneseName": "フロッガー"
+  },
+  {
+    "MonsterId": 485,
+    "FamilyId": 6,
+    "RankId": 5,
+    "Name": "Togre",
+    "JapaneseName": "ネクロバルサ"
+  },
+  {
+    "MonsterId": 261,
+    "FamilyId": 2,
+    "RankId": 3,
+    "Name": "Tortoceratops",
+    "JapaneseName": "デンタザウルス"
+  },
+  {
+    "MonsterId": 576,
+    "FamilyId": 7,
+    "RankId": 4,
+    "Name": "Tortured Soul",
+    "JapaneseName": "なげきの亡霊"
+  },
+  {
+    "MonsterId": 572,
+    "FamilyId": 3,
+    "RankId": 3,
+    "Name": "Tree Feller",
+    "JapaneseName": "ヘルボックル"
+  },
+  {
+    "MonsterId": 505,
+    "FamilyId": 7,
+    "RankId": 3,
+    "Name": "Treeface",
+    "JapaneseName": "じんめんじゅ"
+  },
+  {
+    "MonsterId": 566,
+    "FamilyId": 7,
+    "RankId": 5,
+    "Name": "Treevil",
+    "JapaneseName": "ウドラー"
+  },
+  {
+    "MonsterId": 303,
+    "FamilyId": 1,
+    "RankId": 1,
+    "Name": "Triple Splatty",
+    "JapaneseName": "バーガースライム"
+  },
+  {
+    "MonsterId": 384,
+    "FamilyId": 2,
+    "RankId": 8,
+    "Name": "True Dragonlord",
+    "JapaneseName": "竜王"
+  },
+  {
+    "MonsterId": 600,
+    "FamilyId": 3,
+    "RankId": 6,
+    "Name": "Tuffpoise",
+    "JapaneseName": "ニードルフィン"
+  },
+  {
+    "MonsterId": 397,
+    "FamilyId": 3,
+    "RankId": 5,
+    "Name": "Tufty Tot",
+    "JapaneseName": "ケセランパセラン"
+  },
+  {
+    "MonsterId": 577,
+    "FamilyId": 2,
+    "RankId": 4,
+    "Name": "Tundragster",
+    "JapaneseName": "せつげんりゅう"
+  },
+  {
+    "MonsterId": 393,
+    "FamilyId": 3,
+    "RankId": 4,
+    "Name": "Tuskateer",
+    "JapaneseName": "トドマン"
+  },
+  {
+    "MonsterId": 621,
+    "FamilyId": 2,
+    "RankId": 5,
+    "Name": "Tyrannoceratops",
+    "JapaneseName": "バザックス"
+  },
+  {
+    "MonsterId": 468,
+    "FamilyId": 5,
+    "RankId": 8,
+    "Name": "Überkilling Machine",
+    "JapaneseName": "キラーマジンガ"
+  },
+  {
+    "MonsterId": 531,
+    "FamilyId": 7,
+    "RankId": 7,
+    "Name": "Umbra",
+    "JapaneseName": "まおうのかげ"
+  },
+  {
+    "MonsterId": 77,
+    "FamilyId": 7,
+    "RankId": 7,
+    "Name": "Undead Family (A)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 70,
+    "FamilyId": 7,
+    "RankId": 10,
+    "Name": "Undead Family (Any)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 76,
+    "FamilyId": 7,
+    "RankId": 6,
+    "Name": "Undead Family (B)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 75,
+    "FamilyId": 7,
+    "RankId": 5,
+    "Name": "Undead Family (C)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 74,
+    "FamilyId": 7,
+    "RankId": 4,
+    "Name": "Undead Family (D)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 73,
+    "FamilyId": 7,
+    "RankId": 3,
+    "Name": "Undead Family (E)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 72,
+    "FamilyId": 7,
+    "RankId": 2,
+    "Name": "Undead Family (F)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 71,
+    "FamilyId": 7,
+    "RankId": 1,
+    "Name": "Undead Family (G)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 78,
+    "FamilyId": 7,
+    "RankId": 8,
+    "Name": "Undead Family (S)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 79,
+    "FamilyId": 7,
+    "RankId": 9,
+    "Name": "Undead Family (X)",
+    "JapaneseName": null
+  },
+  {
+    "MonsterId": 320,
+    "FamilyId": 4,
+    "RankId": 3,
+    "Name": "Ursa Major",
+    "JapaneseName": "グリズリー"
+  },
+  {
+    "MonsterId": 596,
+    "FamilyId": 4,
+    "RankId": 6,
+    "Name": "Ursa Mega",
+    "JapaneseName": "ダースリカント"
+  },
+  {
+    "MonsterId": 262,
+    "FamilyId": 4,
+    "RankId": 2,
+    "Name": "Vampire Cat",
+    "JapaneseName": "キャットフライ"
+  },
+  {
+    "MonsterId": 263,
+    "FamilyId": 2,
+    "RankId": 1,
+    "Name": "Vegandragora",
+    "JapaneseName": "はなまきドラゴ"
+  },
+  {
+    "MonsterId": 264,
+    "FamilyId": 7,
+    "RankId": 2,
+    "Name": "Walking Corpse",
+    "JapaneseName": "くさった死体"
+  },
+  {
+    "MonsterId": 417,
+    "FamilyId": 4,
+    "RankId": 4,
+    "Name": "Warhog",
+    "JapaneseName": "ソルジャーブル"
+  },
+  {
+    "MonsterId": 265,
+    "FamilyId": 7,
+    "RankId": 1,
+    "Name": "Wax Murderer",
+    "JapaneseName": "おばけキャンドル"
+  },
+  {
+    "MonsterId": 266,
+    "FamilyId": 3,
+    "RankId": 3,
+    "Name": "Weaken Beakon",
+    "JapaneseName": "デッドペッカー"
+  },
+  {
+    "MonsterId": 267,
+    "FamilyId": 4,
+    "RankId": 2,
+    "Name": "Weartiger",
+    "JapaneseName": "とらおとこ"
+  },
+  {
+    "MonsterId": 300,
+    "FamilyId": 5,
+    "RankId": 3,
+    "Name": "Well Wisher",
+    "JapaneseName": "いどまじん"
+  },
+  {
+    "MonsterId": 268,
+    "FamilyId": 6,
+    "RankId": 2,
+    "Name": "Whizzard",
+    "JapaneseName": "コンジャラー"
+  },
+  {
+    "MonsterId": 556,
+    "FamilyId": 7,
+    "RankId": 6,
+    "Name": "Wight King",
+    "JapaneseName": "ワイトキング"
+  },
+  {
+    "MonsterId": 325,
+    "FamilyId": 1,
+    "RankId": 4,
+    "Name": "Wild Slime",
+    "JapaneseName": "スライムファング"
+  },
+  {
+    "MonsterId": 102,
+    "FamilyId": 1,
+    "RankId": 1,
+    "Name": "Wing Slime",
+    "JapaneseName": "はねスライム"
+  },
+  {
+    "MonsterId": 269,
+    "FamilyId": 6,
+    "RankId": 1,
+    "Name": "Winky",
+    "JapaneseName": "おおめだま"
+  },
+  {
+    "MonsterId": 270,
+    "FamilyId": 3,
+    "RankId": 1,
+    "Name": "Woebergine",
+    "JapaneseName": "ナスビナーラ"
+  },
+  {
+    "MonsterId": 490,
+    "FamilyId": 6,
+    "RankId": 6,
+    "Name": "Wrecktor",
+    "JapaneseName": "あくましんかん"
+  },
+  {
+    "MonsterId": 381,
+    "FamilyId": 2,
+    "RankId": 8,
+    "Name": "Wyrmhole Dragon",
+    "JapaneseName": "じげんりゅう"
+  },
+  {
+    "MonsterId": 277,
+    "FamilyId": 2,
+    "RankId": 3,
+    "Name": "Wyrtle",
+    "JapaneseName": "ガメゴン"
+  },
+  {
+    "MonsterId": 362,
+    "FamilyId": 2,
+    "RankId": 5,
+    "Name": "Wyrtoise",
+    "JapaneseName": "ガメゴンロード"
+  },
+  {
+    "MonsterId": 361,
+    "FamilyId": 2,
+    "RankId": 4,
+    "Name": "Wyvern",
+    "JapaneseName": "ライバーン"
+  },
+  {
+    "MonsterId": 627,
+    "FamilyId": 2,
+    "RankId": 9,
+    "Name": "Xenlon",
+    "JapaneseName": "しんりゅう"
+  },
+  {
+    "MonsterId": 521,
+    "FamilyId": 7,
+    "RankId": 5,
+    "Name": "Zamtasm",
+    "JapaneseName": "ドルマージュ"
+  },
+  {
+    "MonsterId": 389,
+    "FamilyId": 3,
+    "RankId": 4,
+    "Name": "Zaptile",
+    "JapaneseName": "サンダーフロッグ"
+  },
+  {
+    "MonsterId": 631,
+    "FamilyId": 8,
+    "RankId": 9,
+    "Name": "Zoma",
+    "JapaneseName": "ゾーマ"
+  }
+]

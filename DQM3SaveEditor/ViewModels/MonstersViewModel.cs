@@ -4,6 +4,8 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using System.Windows.Input;
 using DQM3SaveEditor.Models;
+using DQM3SaveEditor.Services;
+using DQM3SaveEditor.Views;
 
 namespace DQM3SaveEditor.ViewModels;
 
@@ -27,12 +29,14 @@ public class MonstersViewModel : ViewModelBase
     public ICommand AddMonsterCommand { get; }
     public ICommand EditSelectedCommand { get; }
     public ICommand DeleteSelectedCommand { get; }
+    public ICommand ChangeMonsterCommand { get; }
 
     public MonstersViewModel()
     {
         AddMonsterCommand = new RelayCommand(_ => AddMonster());
         EditSelectedCommand = new RelayCommand(_ => EditSelected(), _ => SelectedMonster != null);
         DeleteSelectedCommand = new RelayCommand(_ => DeleteSelected(), _ => SelectedMonster != null);
+        ChangeMonsterCommand = new RelayCommand(_ => ChangeMonster(), _ => SelectedMonster != null);
     }
 
     private void AddMonster()
@@ -62,6 +66,19 @@ public class MonstersViewModel : ViewModelBase
         {
             Monsters.Remove(SelectedMonster);
             SelectedMonster = null;
+        }
+    }
+
+    private void ChangeMonster()
+    {
+        if (SelectedMonster == null) return;
+
+        var dialog = new MonsterSelectionDialog();
+        if (dialog.ShowDialog() == true && dialog.SelectedMonster != null)
+        {
+            var selectedMonsterInfo = dialog.SelectedMonster;
+            SelectedMonster.Kind = selectedMonsterInfo.JapaneseName ?? selectedMonsterInfo.Name;
+            // The EnglishKind will be automatically updated by the property setter
         }
     }
 

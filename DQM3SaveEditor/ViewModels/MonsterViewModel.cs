@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using DQM3SaveEditor.Models;
+using DQM3SaveEditor.Services;
 
 namespace DQM3SaveEditor.ViewModels;
 
@@ -9,6 +10,7 @@ public class MonsterViewModel : ViewModelBase
     private int _id;
     private string _name = string.Empty;
     private string _kind = string.Empty;
+    private string _englishKind = string.Empty;
     private int _level;
     private int _size;
     private long _exp;
@@ -31,7 +33,18 @@ public class MonsterViewModel : ViewModelBase
     public string Kind
     {
         get => _kind;
-        set => SetField(ref _kind, value);
+        set 
+        { 
+            SetField(ref _kind, value);
+            // Update English name when Japanese name changes
+            EnglishKind = MonsterMappingService.GetEnglishName(value);
+        }
+    }
+
+    public string EnglishKind
+    {
+        get => _englishKind;
+        set => SetField(ref _englishKind, value);
     }
 
     public int Level
@@ -105,7 +118,7 @@ public class MonsterViewModel : ViewModelBase
     {
         Id = Id,
         Name = Name,
-        Kind = Kind,
+        Kind = Kind, // Keep Japanese name for saving
         Level = Level,
         Size = Size,
         Exp = Exp,
@@ -126,7 +139,7 @@ public class MonsterViewModel : ViewModelBase
     {
         Id = model.Id;
         Name = model.Name;
-        Kind = model.Kind;
+        Kind = model.Kind; // This will trigger EnglishKind update
         Level = model.Level;
         Size = model.Size;
         Exp = model.Exp;
