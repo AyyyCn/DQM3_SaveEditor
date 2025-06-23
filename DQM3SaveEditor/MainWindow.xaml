@@ -17,14 +17,10 @@
         </ResourceDictionary>
     </Window.Resources>
     <DockPanel>
-        <Menu DockPanel.Dock="Top">
-            <MenuItem Header="_File">
-                <MenuItem Header="_Load" Command="{Binding LoadSaveCommand}"/>
-                <MenuItem Header="_Save" Command="{Binding SaveSaveCommand}"/>
-                <Separator/>
-                <MenuItem Header="E_xit" Click="ExitMenuItem_Click"/>
-            </MenuItem>
-        </Menu>
+        <StackPanel DockPanel.Dock="Top" Orientation="Horizontal" HorizontalAlignment="Left" Margin="8,8,0,8">
+            <Button Content="Load" Command="{Binding LoadSaveCommand}" Width="100" Margin="0,0,8,0"/>
+            <Button Content="Save" Command="{Binding SaveSaveCommand}" Width="100"/>
+        </StackPanel>
         <StatusBar DockPanel.Dock="Bottom">
             <TextBlock Text="{Binding IsDirty, Converter={StaticResource DirtyMarkConverter}}"/>
         </StatusBar>

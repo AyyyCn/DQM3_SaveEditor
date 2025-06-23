@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using DQM3SaveEditor.Models;
 using DQM3SaveEditor.Services;
+using System.Windows.Input;
 
 namespace DQM3SaveEditor.ViewModels;
 
@@ -17,6 +18,7 @@ public class MonsterViewModel : ViewModelBase
     private int _unspentPoints;
     private BasicStats _basicStats = new();
     private ObservableCollection<SkillAllocation> _skills = new();
+    private SkillAllocation? _selectedSkill;
 
     public int Id
     {
@@ -114,6 +116,40 @@ public class MonsterViewModel : ViewModelBase
         set => SetField(ref _skills, value);
     }
 
+    public SkillAllocation? SelectedSkill
+    {
+        get => _selectedSkill;
+        set => SetField(ref _selectedSkill, value);
+    }
+
+    public ICommand AddSkillCommand { get; }
+    public ICommand RemoveSkillCommand { get; }
+
+    public MonsterViewModel()
+    {
+        AddSkillCommand = new RelayCommand(_ => AddSkill(), _ => Skills.Count < 3);
+        RemoveSkillCommand = new RelayCommand(_ => RemoveSkill(), _ => SelectedSkill != null);
+    }
+
+    private void AddSkill()
+    {
+        if (Skills.Count < 3)
+        {
+            Skills.Add(new SkillAllocation { Id = 0, Name = string.Empty, AllocatedPoints = 0 });
+            OnPropertyChanged(nameof(Skills));
+        }
+    }
+
+    private void RemoveSkill()
+    {
+        if (SelectedSkill != null)
+        {
+            Skills.Remove(SelectedSkill);
+            SelectedSkill = null;
+            OnPropertyChanged(nameof(Skills));
+        }
+    }
+
     public Monster ToModel() => new()
     {
         Id = Id,
@@ -154,5 +190,6 @@ public class MonsterViewModel : ViewModelBase
         OnPropertyChanged(nameof(WIS));
 
         Skills = new ObservableCollection<SkillAllocation>(model.Skills);
+        SelectedSkill = null;
     }
 } 

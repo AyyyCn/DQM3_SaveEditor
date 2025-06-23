@@ -18,22 +18,29 @@
         <StackPanel DockPanel.Dock="Top">
             <views:MonsterCard Monster="{Binding}"/>
             <GroupBox Header="Skills" Margin="0,12,0,0">
-                <DataGrid ItemsSource="{Binding Skills}"
-                          AutoGenerateColumns="False"
-                          CanUserAddRows="False"
-                          CanUserDeleteRows="False"
-                          IsReadOnly="False"
-                          MinHeight="120"
-                          Margin="0,0,0,8">
-                    <DataGrid.Columns>
-                        <DataGridTextColumn Header="ID" Binding="{Binding Id}" IsReadOnly="True" Width="40"/>
-                        <DataGridComboBoxColumn Header="Name" 
-                                            ItemsSource="{Binding Source={StaticResource TalentNamesProvider}}"
-                                            SelectedValueBinding="{Binding Name}" 
-                                            Width="*"/>
-                        <DataGridTextColumn Header="Points" Binding="{Binding AllocatedPoints, UpdateSourceTrigger=PropertyChanged}" Width="80"/>
-                    </DataGrid.Columns>
-                </DataGrid>
+                <StackPanel>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,0,0,4">
+                        <Button Content="Add Skill" Command="{Binding AddSkillCommand}" Margin="0,0,8,0" Width="80"/>
+                        <Button Content="Remove Skill" Command="{Binding RemoveSkillCommand}" Width="100"/>
+                    </StackPanel>
+                    <DataGrid ItemsSource="{Binding Skills}"
+                              SelectedItem="{Binding SelectedSkill, Mode=TwoWay}"
+                              AutoGenerateColumns="False"
+                              CanUserAddRows="False"
+                              CanUserDeleteRows="False"
+                              IsReadOnly="False"
+                              MinHeight="120"
+                              Margin="0,0,0,8">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="ID" Binding="{Binding Id}" IsReadOnly="True" Width="40"/>
+                            <DataGridComboBoxColumn Header="Name" 
+                                                ItemsSource="{Binding Source={StaticResource TalentNamesProvider}}"
+                                                SelectedValueBinding="{Binding Name}" 
+                                                Width="*"/>
+                            <DataGridTextColumn Header="Points" Binding="{Binding AllocatedPoints, UpdateSourceTrigger=PropertyChanged}" Width="80"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </StackPanel>
             </GroupBox>
         </StackPanel>
         <StackPanel DockPanel.Dock="Bottom" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,8,0,0">

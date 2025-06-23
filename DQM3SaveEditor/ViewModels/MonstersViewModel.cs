@@ -62,6 +62,7 @@ public class MonstersViewModel : ViewModelBase
             {
                 Monsters.Add(monster);
                 SelectedMonster = monster;
+                System.Windows.MessageBox.Show("Monster saved successfully!", "Success", System.Windows.MessageBoxButton.OK, System.Windows.MessageBoxImage.Information);
             }
         }
     }
@@ -77,6 +78,7 @@ public class MonstersViewModel : ViewModelBase
         {
             // Copy edited values back
             SelectedMonster.FromModel(clone.ToModel());
+            System.Windows.MessageBox.Show("Monster saved successfully!", "Success", System.Windows.MessageBoxButton.OK, System.Windows.MessageBoxImage.Information);
         }
     }
 

@@ -101,7 +101,7 @@ public class MainViewModel : ViewModelBase
         
         var dialog = new SaveFileDialog
         {
-            Filter = "Save Files|*.bin;*.sav|All Files|*.*"
+            Filter = "Save Files|*.bin|All Files|*.*"
         };
 
         if (dialog.ShowDialog() == true)
@@ -121,6 +121,7 @@ public class MainViewModel : ViewModelBase
                 );
                 IsDirty = false;
                 Console.WriteLine("=== SAVE COMPLETED SUCCESSFULLY ===");
+                System.Windows.MessageBox.Show("Save file saved successfully!", "Success", System.Windows.MessageBoxButton.OK, System.Windows.MessageBoxImage.Information);
             }
             catch (Exception ex)
             {
