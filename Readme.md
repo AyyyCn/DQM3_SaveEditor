@@ -2,21 +2,22 @@
 
 *Small fun project I built to learn more about reverse‑engineering Unity/IL2CPP save formats and to practice desktop development with .NET.*
 
-**DQM3 Save Editor** is a lightweight Windows tool that lets you open, tweak, and resave *Dragon Quest Monsters 3* `.bin` save files works both for Windows and Switch version.
+**DQM3 Save Editor** is a Windows tool that lets you open, tweak, and resave *Dragon Quest Monsters 3* `.bin` save files works both for Windows and Switch version.
 
 ---
 
 ## Features
 
-| Category        | What you can do                                                           |
-| --------------- | ------------------------------------------------------------------------- |
-| **Load & Save** | Open any game save, edit freely, and write back a clean, working file.    |
-| **Player**      | Change name, play‑time counter, gold, café points & more.                 |
-| **Monsters**    | Add / remove monsters, tweak base stats\*, skills, properties, nicknames. |
-| **Inventory**   | Add or remove items, set quantities instantly.                            |
-| **Unlocks**     | One‑click unlock of all monsters, skills, library entries.                |
+| Category        | What you can do                                                            |
+| --------------- | -------------------------------------------------------------------------  |
+| **Load & Save** | Open any game save, edit freely, and write back a clean, working file.     |
+| **Player**      | Change name, play‑time counter, gold, café points & more.                  |
+| **Monsters**    | Edit / remove monsters, tweak base stats\*, skills, properties, nicknames. |
+| **Inventory**   | Add or remove items, set quantities instantly.                             |
+| **Unlocks**     | One‑click unlock of all monsters, skills, library entries.                 |
 
 > \* Current editor shows the **base** stats that exist in the file.
+> \* I removed the add monster feature because the parser of the game is very strict I need to figure a way not to break it. You can however edit any monster to become any monster.
 
 ---
 
